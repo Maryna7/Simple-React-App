@@ -1,0 +1,10 @@
+@mixin link-reset{
+  text-decoration: none;
+  color: $base-link-color;
+}
+
+@mixin container-styles {
+  max-width: 1090px;
+  margin: 0 auto;
+  padding: 0 15px;
+}

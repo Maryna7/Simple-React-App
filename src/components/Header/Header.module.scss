@@ -1,0 +1,28 @@
+@import "../../shared/variables.scss";
+@import "../../shared/mixins.scss";
+
+.header{
+  position: absolute;
+  top: 8px;
+  left: 0;
+  right: 0;
+  background-color: $base-background-color;
+  padding: 30px 0;
+  z-index: 1; 
+}
+
+.container{
+  @include container-styles;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  width: 20%;
+  min-width: 134px;
+
+  img{
+    vertical-align: top;
+  }
+}

@@ -1,0 +1,46 @@
+@import "../../shared/variables.scss";
+@import "../../shared/mixins.scss";
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navList{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navItem{
+  margin-left: 15px;
+  
+  a{
+    @include link-reset;
+    position: relative;
+  
+    &::after{
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      right: 50%;
+      height: 2px;
+      transition: $base-transition;
+      background-color: $green;
+    }
+  
+    &:hover{
+      &::after{
+        left: 0;
+        right: 0;
+      }
+    }
+  }
+}
+
+
+.dropdown{
+  display: none;
+}

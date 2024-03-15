@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:wght@300&display=swap');
+@import "../node_modules/reset-css/sass/reset";
+@import "./shared/variables";
+@import "./shared/mixins";
+
+body {
+  color: $base-text-color;
+  background: $base-background-color;
+  font: #{$font-size-base}/#{$line-height-base} $base-font-family;
+  margin: 0;
+}
+
+.container{
+  @include container-styles;
+}
+
+

@@ -1,0 +1,35 @@
+@import "../../shared/variables.scss";
+@import "../../shared/mixins.scss";
+
+.bannerSection{
+  height: 100vh;
+  background-image: url(../../images/baner.jpg);
+  background-size: cover;
+  color: $white;
+  text-align: center;
+
+  .container{
+    display: inline-block;
+    vertical-align: bottom;
+  }
+
+  .textWrap{
+    text-align: left;
+    max-width: 350px;
+    margin-bottom: 20px;
+
+    .bannerText{
+      margin: 0;
+    }
+  }
+
+  .bannerButton{
+    display: inline-block;
+    color: $btn-color;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid $white;
+    padding: $btn-padding;
+    margin-bottom: 20px;
+  }
+}

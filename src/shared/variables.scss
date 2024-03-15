@@ -1,0 +1,48 @@
+//Colors
+$light-gray: #fafafa;
+$gray: #f0f2f3;
+$dark-blue: #314f70;
+$white: #fff;
+$green: #39ca87;
+
+
+// Fonts
+$base-font-sans-serif: 'Raleway', 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+$secondary-font-family: 'Lato', 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+
+// Body
+$base-text-color: $dark-blue !default;
+$base-background-color: $light-gray !default;
+$font-size-base: 14px !default;
+$line-height-base: 1.7 !default;
+$base-font-family: $base-font-sans-serif !default;
+
+// Liks
+$base-link-color: $dark-blue;
+
+// Buttons 
+$btn-color: $white !default;
+$btn-background: $green !default;
+$btn-padding: 0.4em 0.7em !default;
+$btn-font-size: inherit !default;
+
+// Forms
+$form-element-padding: $btn-padding !default;
+$form-element-border-color: $dark-blue !default;
+$form-element-focus-border-color: $green !default;
+$placeholder-color: #c4c6c9 !default;
+
+// Headers
+$h1-font-size: 32px !default;
+$h2-font-size: 30px !default;
+$h3-font-size: 26px !default;
+$h4-font-size: 24px !default;
+$h5-font-size: 13px !default;
+$h6-font-size: 12px !default;
+
+$headings-font-family: $secondary-font-family !default;
+$headings-color: $dark-blue !default;
+
+// Transition
+$base-transition: all 0.3s;
+
