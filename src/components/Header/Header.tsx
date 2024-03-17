@@ -4,7 +4,7 @@ import Logo from "../../images/logo.png";
 import { Navigation } from '../Navigation/Navigation';
 
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <header className={styles.header}>
       <div className={styles.container}>

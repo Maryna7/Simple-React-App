@@ -1,14 +1,17 @@
 import React from 'react';
-import style from './App.module.scss';
+import styles from './App.module.scss';
 import { Header } from '../Header/Header';
 import  { Banner } from '../Banner/Banner';
+import { ServicesList } from '../ServicesList/ServicesList';
 
-function App() {
+
+const App: React.FC = () => {
   return (
-    <div className={style.app}>
+    <div className={styles.app}>
       <Header />
       <main>
         <Banner />
+        <ServicesList />
       </main>
     </div>
   );

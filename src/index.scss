@@ -14,4 +14,7 @@ body {
   @include container-styles;
 }
 
-
+.button {
+  color: $btn-color;
+  text-transform: uppercase;
+}

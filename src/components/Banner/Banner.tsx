@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from"./Banner.module.scss"
 
-const Banner = () => {
+const Banner: React.FC = () => {
   return (
     <section className={styles.bannerSection}>
       <div className={styles.container}>

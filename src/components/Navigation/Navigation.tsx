@@ -2,7 +2,7 @@ import React from 'react';
 import styles from "./Navigation.module.scss"
 
 
-function Navigation() {
+const  Navigation: React.FC = () => {
   return (
     <nav className={styles.nav}>
       <ul className={styles.navList}>

@@ -19,6 +19,7 @@
   a{
     @include link-reset;
     position: relative;
+    color: $base-link-color;
   
     &::after{
       content: '';

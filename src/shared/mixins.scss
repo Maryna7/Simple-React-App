@@ -1,10 +1,19 @@
 @mixin link-reset{
   text-decoration: none;
-  color: $base-link-color;
+  
+  &:active,
+  &:focus{
+    color: inherit;
+  }
 }
 
 @mixin container-styles {
   max-width: 1090px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+@mixin button-style {
+  color: $btn-color;
+  text-transform: uppercase;
 }
