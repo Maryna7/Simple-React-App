@@ -1,35 +1,35 @@
 import React from 'react';
-import styles from './ServicesList.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWrench, faCameraRetro, faLaptop } from '@fortawesome/free-solid-svg-icons'
+import { faBullhorn } from '@fortawesome/free-solid-svg-icons';
+import { faLightbulb, faSquareCheck } from '@fortawesome/free-regular-svg-icons';
+import './AboutList.scss';
 
 
-const ServicesList = () => {
+const AboutList = () => {
  
 
   return (
-    <section className={styles.servicesSection}>
+    <section className="aboutSection">
       <div className="container">
-      <h2 className="mainHeading"><span>SERVICES</span></h2>
+      <h2 className="mainHeading"><span>About</span></h2>
       <ul className="articlesColumns">
         <li className="article">
-          <div className="iconHolder"><FontAwesomeIcon icon={faWrench} /></div>
-          <h3>Web Design & Development</h3>
+          <div className="iconHolder"><FontAwesomeIcon icon={faBullhorn} /></div>
+          <h3><span className="headingsNumber">89%</span>Double the traffic</h3>
           <div className="textHolder">
             <p>Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.</p>
           </div>
         </li>
         <li className="article">
-          <div className="iconHolder"><FontAwesomeIcon icon={faCameraRetro} /></div>
-          <h3>Copywriting & Publishing</h3>
+          <div className="iconHolder"><FontAwesomeIcon icon={faLightbulb} /></div>
+          <h3><span className="headingsNumber">75%</span>Better Ideas</h3>
           <div className="textHolder">
-            <p>Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.</p>
             <p>Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.</p>
           </div>
         </li>
         <li className="article">
-          <div className="iconHolder"><FontAwesomeIcon icon={faLaptop} /></div>
-          <h3>Digital & Offset Printing</h3>
+          <div className="iconHolder"><FontAwesomeIcon icon={faSquareCheck} /></div>
+          <h3><span className="headingsNumber">100%</span>Digital & Offset Printing</h3>
           <div className="textHolder">
             <p>Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.</p>
           </div>
@@ -40,4 +40,4 @@ const ServicesList = () => {
   );
 }
 
-export { ServicesList };
+export { AboutList }

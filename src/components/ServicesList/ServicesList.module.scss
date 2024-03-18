@@ -1,7 +1,6 @@
-.articlesSection{
-  padding: 30px 0;
-}
+@import "../../shared/variables.scss";
+@import "../../shared/mixins.scss";
 
-.articleList{
-  display: flex;
+.servicesSection{
+  padding: $section-padding-lg;
 }

@@ -1,0 +1,46 @@
+@import "../../shared/variables.scss";
+@import "../../shared/mixins.scss";
+
+.projectSection{
+    padding: $section-padding-lg;
+    padding-bottom: 0;
+    background-color: $second-background-color;
+}
+.projectList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projectItem{
+    width: 25%;
+    overflow: hidden;
+
+    a{
+        @include link-reset;
+        position: relative;
+        display: inline-block;
+        
+        &:hover{
+            .hoverText{
+                bottom: 0;
+            }
+        }
+    }
+
+    img{
+        vertical-align: top;
+        width: 100%;
+    }
+}
+
+.hoverText{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -30%;
+    padding: 10px 15px;
+    transition: $base-transition;
+    color: $white;
+    background-color: $btn-background;
+    text-transform: capitalize;
+}

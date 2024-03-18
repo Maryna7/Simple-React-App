@@ -1,0 +1,32 @@
+@import "../../shared/variables.scss";
+@import "../../shared/mixins.scss";
+
+.aboutSection{
+    padding: $section-padding-lg;
+
+    .headingsNumber{
+        margin-right: 8px;
+        color: $btn-background;
+    }
+
+    .articlesColumns{
+        position: relative;
+
+        &::after{
+            content: '';
+            position: absolute;
+            top: 10%;
+            bottom: 0;
+            left: -999px;
+            width: 9999px;
+            z-index: -2;
+            background-color: $second-background-color;
+        }
+    }
+
+    .article {
+        &::after{
+            display: none;
+          }
+    }
+}

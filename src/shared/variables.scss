@@ -13,6 +13,7 @@ $secondary-font-family: 'Lato', 'Arial', 'Helvetica Neue', 'Helvetica', sans-ser
 // Body
 $base-text-color: $dark-blue !default;
 $base-background-color: $light-gray !default;
+$second-background-color: $gray !default;
 $font-size-base: 14px !default;
 $line-height-base: 1.7 !default;
 $base-font-family: $base-font-sans-serif !default;
@@ -46,3 +47,5 @@ $headings-color: $dark-blue !default;
 // Transition
 $base-transition: all .3s;
 
+// Padding
+$section-padding-lg: 60px 0;
