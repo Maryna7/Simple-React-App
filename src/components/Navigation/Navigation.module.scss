@@ -15,28 +15,28 @@
 
 .navItem{
   margin-left: 15px;
-  
-  a{
-    @include link-reset;
-    position: relative;
-    color: $base-link-color;
-  
+}
+
+.navLink{
+  @include link-reset;
+  position: relative;
+  color: $base-link-color;
+
+  &::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    right: 50%;
+    height: 2px;
+    transition: $base-transition;
+    background-color: $green;
+  }
+
+  &:hover{
     &::after{
-      content: '';
-      position: absolute;
-      bottom: -10px;
-      left: 50%;
-      right: 50%;
-      height: 2px;
-      transition: $base-transition;
-      background-color: $green;
-    }
-  
-    &:hover{
-      &::after{
-        left: 0;
-        right: 0;
-      }
+      left: 0;
+      right: 0;
     }
   }
 }

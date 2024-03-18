@@ -11,25 +11,25 @@ const AboutList = () => {
   return (
     <section className="aboutSection">
       <div className="container">
-      <h2 className="mainHeading"><span>About</span></h2>
+      <h2 className="h2"><span>About</span></h2>
       <ul className="articlesColumns">
         <li className="article">
           <div className="iconHolder"><FontAwesomeIcon icon={faBullhorn} /></div>
-          <h3><span className="headingsNumber">89%</span>Double the traffic</h3>
+          <h3 className="h3"><span className="headingsNumber">89%</span>Double the traffic</h3>
           <div className="textHolder">
             <p>Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.</p>
           </div>
         </li>
         <li className="article">
           <div className="iconHolder"><FontAwesomeIcon icon={faLightbulb} /></div>
-          <h3><span className="headingsNumber">75%</span>Better Ideas</h3>
+          <h3 className="h3"><span className="headingsNumber">75%</span>Better Ideas</h3>
           <div className="textHolder">
             <p>Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.</p>
           </div>
         </li>
         <li className="article">
           <div className="iconHolder"><FontAwesomeIcon icon={faSquareCheck} /></div>
-          <h3><span className="headingsNumber">100%</span>Digital & Offset Printing</h3>
+          <h3 className="h3"><span className="headingsNumber">100%</span>Digital & Offset Printing</h3>
           <div className="textHolder">
             <p>Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.</p>
           </div>

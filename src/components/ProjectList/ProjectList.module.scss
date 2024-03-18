@@ -6,6 +6,33 @@
     padding-bottom: 0;
     background-color: $second-background-color;
 }
+
+.sortProjectList{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.sortProjectItem{
+    padding: 0 10px;
+    border-right: 1px solid #b9c3cd;
+    line-height: 1.2;
+
+    &:last-child{
+        border-right: none;
+    }
+}
+
+.sortProjectLink{
+    @include link-reset;
+    color: $base-text-color;
+    transition: $base-transition;
+
+    &:hover{
+        opacity: 0.6;
+    }
+}
+
 .projectList{
     display: flex;
     flex-wrap: wrap;
@@ -14,16 +41,16 @@
 .projectItem{
     width: 25%;
     overflow: hidden;
+}
 
-    a{
-        @include link-reset;
-        position: relative;
-        display: inline-block;
-        
-        &:hover{
-            .hoverText{
-                bottom: 0;
-            }
+.projectLink{
+    @include link-reset;
+    position: relative;
+    display: inline-block;
+    
+    &:hover{
+        .hoverText{
+            bottom: 0;
         }
     }
 
@@ -32,6 +59,7 @@
         width: 100%;
     }
 }
+
 
 .hoverText{
     position: absolute;
