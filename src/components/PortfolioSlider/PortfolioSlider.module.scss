@@ -1,0 +1,97 @@
+@import "../../shared/variables.scss";
+@import "../../shared/mixins.scss";
+
+.portfolioSection{
+    padding: $section-padding-lg;
+}
+
+.portfolioList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolioItem{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 33.33%;
+    width: 33.33%;
+
+    &:nth-child(even){
+
+        .portfolioLink{
+            max-width: 100%;
+        }
+    }
+}
+
+.portfolioLink{
+    position: relative;
+    max-width: 50%;
+    transition: $base-transition;
+
+    &:hover{
+        .linkHover{
+            opacity: 1;
+            visibility: visible;
+        }
+     }
+}
+
+img{
+    vertical-align: top;
+    width: 100%;
+}
+
+.portfolioLinkWrap{
+    max-width: 50%;
+
+    .portfolioLink{
+        max-width: 100%;
+        display: inline-block;
+    }
+}
+
+.linkHover{
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(53 202 135 / 50%);
+    text-align: center;
+    transition: $base-transition;
+}
+
+.hoverTextWrap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid $white;
+}
+
+.hoverText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    background-color: $btn-background;
+    color: $white;
+    text-transform: uppercase;
+    transition: $base-transition;
+
+    &:hover{
+         width: 120px;
+         height: 120px;
+         line-height: 120px;
+     }
+}

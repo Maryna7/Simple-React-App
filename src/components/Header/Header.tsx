@@ -9,8 +9,8 @@ const Header: React.FC = () => {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-      <a className={styles.logo} href="#">
-        <img src={Logo} alt="Logo" />
+      <a className={styles.logoWrap} href="#">
+        <img src={Logo} className={styles.logo} alt="Logo" />
       </a>
       <Navigation />
       </div>

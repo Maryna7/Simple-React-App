@@ -18,11 +18,11 @@
   align-items: center;
 }
 
-.logo{
+.logoWrap{
   width: 20%;
   min-width: 134px;
+}
 
-  img{
-    vertical-align: top;
-  }
+.logo{
+  vertical-align: top;
 }

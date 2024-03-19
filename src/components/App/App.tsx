@@ -6,6 +6,7 @@ import { ServicesList } from '../ServicesList/ServicesList';
 import { ProjectList } from '../ProjectList/ProjectList';
 import { AboutList } from '../AboutList/AboutList';
 import { TeamList } from '../TeamList/TeamList';
+import { PortfolioSlider } from '../PortfolioSlider/PortfolioSlider';
 
 
 const App: React.FC = () => {
@@ -18,6 +19,7 @@ const App: React.FC = () => {
         <ProjectList />
         <AboutList />
         <TeamList />
+        <PortfolioSlider />
       </main>
     </div>
   );

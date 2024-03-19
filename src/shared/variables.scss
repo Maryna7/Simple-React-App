@@ -11,38 +11,38 @@ $base-font-sans-serif: 'Raleway', 'Arial', 'Helvetica Neue', 'Helvetica', sans-s
 $secondary-font-family: 'Lato', 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
 
 // Body
-$base-text-color: $dark-blue !default;
-$base-background-color: $light-gray !default;
-$second-background-color: $gray !default;
-$font-size-base: 14px !default;
-$line-height-base: 1.7 !default;
-$base-font-family: $base-font-sans-serif !default;
+$base-text-color: $dark-blue;
+$base-background-color: $light-gray;
+$second-background-color: $gray;
+$font-size-base: 14px;
+$line-height-base: 1.7;
+$base-font-family: $base-font-sans-serif;
 
 // Liks
 $base-link-color: $dark-blue;
 
 // Buttons 
-$btn-color: $white !default;
-$btn-background: $green !default;
-$btn-padding: 0.4em 0.7em !default;
-$btn-font-size: inherit !default;
+$btn-color: $white;
+$btn-background: $green;
+$btn-padding: 0.4em 0.7em;
+$btn-font-size: inherit;
 
 // Forms
-$form-element-padding: $btn-padding !default;
-$form-element-border-color: $dark-blue !default;
-$form-element-focus-border-color: $green !default;
-$placeholder-color: #c4c6c9 !default;
+$form-element-padding: $btn-padding;
+$form-element-border-color: $dark-blue;
+$form-element-focus-border-color: $green;
+$placeholder-color: #c4c6c9;
 
 // Headers
-$h1-font-size: 32px !default;
-$h2-font-size: 30px !default;
-$h3-font-size: 26px !default;
-$h4-font-size: 24px !default;
-$h5-font-size: 13px !default;
-$h6-font-size: 12px !default;
+$h1-font-size: 32px;
+$h2-font-size: 30px;
+$h3-font-size: 26px;
+$h4-font-size: 24px;
+$h5-font-size: 13px;
+$h6-font-size: 12px;
 
-$headings-font-family: $secondary-font-family !default;
-$headings-color: $dark-blue !default;
+$headings-font-family: $secondary-font-family;
+$headings-color: $dark-blue;
 
 // Transition
 $base-transition: all .3s;

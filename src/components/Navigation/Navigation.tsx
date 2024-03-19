@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import styles from "./Navigation.module.scss"
+import { Link } from '../Link/Link';
 
 
 const  Navigation: React.FC = () => {
@@ -8,7 +9,7 @@ const  Navigation: React.FC = () => {
     <nav className={styles.nav}>
       <ul className={styles.navList}>
         <li className={styles.navItem}>
-          <a className={styles.navLink} href="/home">home</a>
+          <Link>home</Link> 
         </li>
         <li className={styles.navItem}>
           <a className={styles.navLink} href="/sliders">sliders</a>
