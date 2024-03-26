@@ -1,70 +1,98 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react';
-import styles from "./Navigation.module.scss"
-import { Link } from '../Link/Link';
+import React from "react";
+import styles from "./Navigation.module.scss";
+import classnames from "classnames";
+import { Link } from "../Link/Link";
 
-
-const  Navigation: React.FC = () => {
+const Navigation: React.FC = () => {
+  const navData = [
+    {
+      href: "/home",
+      text: "home",
+    },
+    {
+      href: "/sliders",
+      text: "sliders",
+      dropdown: [
+        {
+          href: "#",
+          text: "sliders 1",
+        },
+        {
+          href: "#",
+          text: "sliders 2",
+        },
+        {
+          href: "#",
+          text: "sliders 3",
+        },
+      ],
+    },
+    {
+      href: "/pages",
+      text: "pages",
+      dropdown: [
+        {
+          href: "#",
+          text: "page 1",
+        },
+        {
+          href: "#",
+          text: "page 2",
+        },
+        {
+          href: "#",
+          text: "page 3",
+        },
+      ],
+    },
+    {
+      href: "/portfolio",
+      text: "portfolio",
+    },
+    {
+      href: "/headers",
+      text: "headers",
+    },
+    {
+      href: "/blog",
+      text: "blog",
+    },
+    {
+      href: "/search",
+      text: "search",
+    },
+  ];
   return (
     <nav className={styles.nav}>
       <ul className={styles.navList}>
-        <li className={styles.navItem}>
-          <Link>home</Link> 
-        </li>
-        <li className={styles.navItem}>
-          <a className={styles.navLink} href="/sliders">sliders</a>
-          <ul className={styles.dropdown}>
-            <li>
-              <a className={styles.navLink} href="#">slider 1</a>
-            </li>
-            <li>
-              <a className={styles.navLink} href="#">slider 2</a>
-            </li>
-            <li>
-              <a className={styles.navLink} href="#">slider 3</a>
-            </li>
-          </ul>
-        </li>
-        <li className={styles.navItem}>
-          <a className={styles.navLink} href="#">pages</a>
-          <ul className={styles.dropdown}>
-            <li>
-              <a className={styles.navLink} href="#">page 1</a>
-            </li>
-            <li>
-              <a className={styles.navLink} href="#">page 2</a>
-            </li>
-            <li>
-              <a className={styles.navLink} href="#">page 3</a>
-              <ul className="dropdown">
-                <li>
-                  <a className={styles.navLink} href="#">page 1</a>
-                </li>
-                <li>
-                  <a className={styles.navLink} href="#">page 2</a>
-                </li>
-                <li>
-                  <a className={styles.navLink} href="#">page 3</a>
-                </li>
+        {navData.map((item) => (
+          <li className={styles.navItem}>
+            <Link className={styles.navLink} href={item.href}>
+              {item.text}
+            </Link>
+
+            {item.dropdown ? (
+              <ul className={styles.dropdown}>
+                {item.dropdown.map((item) => (
+                  <li className={styles.dropdownItem}>
+                    <Link
+                      className={classnames(
+                        styles.dropdownLink,
+                        styles.navLink
+                      )}
+                      href={item.href}
+                    >
+                      {item.text}
+                    </Link>
+                  </li>
+                ))}
               </ul>
-            </li>
-          </ul>
-        </li>
-        <li className={styles.navItem}>
-          <a className={styles.navLink} href="/portfolio">portfolio</a>
-        </li>
-        <li className={styles.navItem}>
-          <a className={styles.navLink} href="/headers">headers</a>
-        </li>
-        <li  className={styles.navItem}>
-          <a className={styles.navLink} href="/blog">blog</a>
-        </li>
-        <li className={styles.navItem}>
-          <a className={styles.navLink} href="/search">search</a>
-        </li>
+            ) : null}
+          </li>
+        ))}
       </ul>
     </nav>
-  )
-}
+  );
+};
 
-export { Navigation } 
+export { Navigation };

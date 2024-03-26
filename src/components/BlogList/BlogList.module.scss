@@ -1,0 +1,32 @@
+@import "../../shared/variables.scss";
+@import "../../shared/mixins.scss";
+
+.blogSection {
+  padding: $section-padding-lg;
+}
+
+.blogList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blogItem {
+  width: 50%;
+}
+
+.blogLink {
+  display: flex;
+  align-items: stretch;
+}
+
+.blogImgWrap {
+  width: 50%;
+  background-size: cover;
+  background-image: url("../../images/img-3.jpg");
+  background-position: 50%;
+}
+
+.blogTextWrap {
+  width: 50%;
+  padding: 10px 15px;
+}

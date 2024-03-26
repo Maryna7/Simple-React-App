@@ -1,7 +1,7 @@
 @import "../../shared/variables.scss";
 @import "../../shared/mixins.scss";
 
-.bannerSection{
+.bannerSection {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -10,22 +10,21 @@
   background-size: cover;
   color: $white;
 
-  .container{
+  .container {
     @include container-styles;
     padding: 30px 0;
   }
 
-  .textWrap{
+  .textWrap {
     max-width: 350px;
     margin-bottom: 20px;
   }
 
-  .bannerText{
+  .bannerText {
     margin: 0;
   }
 
-  .bannerButton{
-    @include link-reset;
+  .bannerButton {
     @include button-style;
     position: relative;
     display: inline-block;
@@ -35,7 +34,7 @@
     z-index: 1;
 
     &:after {
-      content: '';
+      content: "";
       position: absolute;
       top: 0;
       left: 0;
@@ -48,7 +47,7 @@
       z-index: -1;
     }
 
-    &:hover{
+    &:hover {
       color: $dark-blue;
 
       &:after {

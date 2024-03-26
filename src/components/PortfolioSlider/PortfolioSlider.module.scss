@@ -1,97 +1,146 @@
 @import "../../shared/variables.scss";
 @import "../../shared/mixins.scss";
 
-.portfolioSection{
-    padding: $section-padding-lg;
+.portfolioSection {
+  padding: $section-padding-lg;
+  overflow: hidden;
 }
 
-.portfolioList{
-    display: flex;
-    flex-wrap: wrap;
+.sliderWrap {
+  position: relative;
+  padding: 0 15px;
+  background-color: #f9f9f9;
+  background-image: linear-gradient(
+      to right top,
+      rgba(154, 189, 107, 0) 54%,
+      #929292 52%,
+      #929292 56%,
+      rgba(154, 189, 107, 0) 60%
+    ),
+    linear-gradient(to right top, #e4e5e7 6%, rgba(154, 189, 107, 0) 10%);
+  background-size: 8px 8px;
 }
 
-.portfolioItem{
-    display: flex;
-    flex-wrap: wrap;
-    flex: 33.33%;
-    width: 33.33%;
+.sliderArrowLeft,
+.sliderArrowRight {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+  border-radius: 50%;
+  color: $btn-background;
+  border: none;
+  font-size: 32px;
+  background-color: #f9f9f9;
+  background-image: linear-gradient(
+      to right top,
+      rgba(154, 189, 107, 0) 54%,
+      #929292 52%,
+      #929292 56%,
+      rgba(154, 189, 107, 0) 60%
+    ),
+    linear-gradient(to right top, #e4e5e7 6%, rgba(154, 189, 107, 0) 10%);
+  background-size: 8px 8px;
+}
 
-    &:nth-child(even){
+.sliderArrowLeft {
+  left: -50px;
+  padding-left: 40px;
+}
 
-        .portfolioLink{
-            max-width: 100%;
-        }
+.sliderArrowRight {
+  right: -50px;
+  padding-right: 40px;
+}
+
+.portfolioList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolioItem {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 33.33%;
+  width: 33.33%;
+
+  &:nth-child(even) {
+    .portfolioLink {
+      width: 100%;
     }
+  }
 }
 
-.portfolioLink{
-    position: relative;
-    max-width: 50%;
-    transition: $base-transition;
+.portfolioLink {
+  position: relative;
+  width: 50%;
+  transition: $base-transition;
 
-    &:hover{
-        .linkHover{
-            opacity: 1;
-            visibility: visible;
-        }
-     }
+  &:hover {
+    .linkHover {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
 }
 
-img{
-    vertical-align: top;
+img {
+  vertical-align: top;
+  width: 100%;
+}
+
+.portfolioLinkWrap {
+  width: 50%;
+
+  .portfolioLink {
     width: 100%;
+    display: inline-block;
+  }
 }
 
-.portfolioLinkWrap{
-    max-width: 50%;
-
-    .portfolioLink{
-        max-width: 100%;
-        display: inline-block;
-    }
+.linkHover {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(53 202 135 / 50%);
+  text-align: center;
+  transition: $base-transition;
 }
 
-.linkHover{
-    opacity: 0;
-    visibility: hidden;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgb(53 202 135 / 50%);
-    text-align: center;
-    transition: $base-transition;
+.hoverTextWrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 1px solid $white;
 }
 
-.hoverTextWrap{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+.hoverText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  border-radius: 50%;
+  background-color: $btn-background;
+  color: $white;
+  text-transform: uppercase;
+  transition: $base-transition;
+
+  &:hover {
     width: 120px;
     height: 120px;
-    border-radius: 50%;
-    border: 1px solid $white;
-}
-
-.hoverText{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
-    border-radius: 50%;
-    background-color: $btn-background;
-    color: $white;
-    text-transform: uppercase;
-    transition: $base-transition;
-
-    &:hover{
-         width: 120px;
-         height: 120px;
-         line-height: 120px;
-     }
+    line-height: 120px;
+  }
 }

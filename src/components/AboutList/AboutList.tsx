@@ -1,43 +1,52 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBullhorn } from '@fortawesome/free-solid-svg-icons';
-import { faLightbulb, faSquareCheck } from '@fortawesome/free-regular-svg-icons';
-import './AboutList.scss';
-
+import React from "react";
+import { Icons } from "../Icons/Icons";
+import "./AboutList.scss";
 
 const AboutList = () => {
- 
+  const aboutSectionData = [
+    {
+      icon: Icons.iconBullhorn,
+      headingsNumber: "89%",
+      heading: "Double the traffic",
+      text: "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
+    },
+    {
+      icon: Icons.iconLightbulb,
+      headingsNumber: "75%",
+      heading: "Better Ideas",
+      text: "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
+    },
+    {
+      icon: Icons.iconSquareCheck,
+      headingsNumber: "100%",
+      heading: "Digital & Offset Printing",
+      text: "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
+    },
+  ];
 
   return (
     <section className="aboutSection">
       <div className="container">
-      <h2 className="h2"><span>About</span></h2>
-      <ul className="articlesColumns">
-        <li className="article">
-          <div className="iconHolder"><FontAwesomeIcon icon={faBullhorn} /></div>
-          <h3 className="h3"><span className="headingsNumber">89%</span>Double the traffic</h3>
-          <div className="textHolder">
-            <p>Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.</p>
-          </div>
-        </li>
-        <li className="article">
-          <div className="iconHolder"><FontAwesomeIcon icon={faLightbulb} /></div>
-          <h3 className="h3"><span className="headingsNumber">75%</span>Better Ideas</h3>
-          <div className="textHolder">
-            <p>Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.</p>
-          </div>
-        </li>
-        <li className="article">
-          <div className="iconHolder"><FontAwesomeIcon icon={faSquareCheck} /></div>
-          <h3 className="h3"><span className="headingsNumber">100%</span>Digital & Offset Printing</h3>
-          <div className="textHolder">
-            <p>Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.</p>
-          </div>
-        </li>
-      </ul>
+        <h2 className="h2">
+          <span>About</span>
+        </h2>
+        <ul className="articlesColumns">
+          {aboutSectionData.map((item) => (
+            <li className="article">
+              <div className="iconHolder">{item.icon}</div>
+              <h3 className="h3">
+                <span className="headingsNumber">{item.headingsNumber}</span>
+                {item.heading}
+              </h3>
+              <div className="textHolder">
+                <p>{item.text}</p>
+              </div>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );
-}
+};
 
-export { AboutList }
+export { AboutList };

@@ -1,47 +1,68 @@
 @import "../../shared/variables.scss";
 @import "../../shared/mixins.scss";
 
-// .nav{
-//   display: flex;
-//   justify-content: space-between;
-//   align-items: center;
-// }
-
-.navList{
+.navList {
   display: flex;
-  // justify-content: space-between;
-  // align-items: center;
 }
 
-.navItem{
+.navItem {
   margin-left: 15px;
+  position: relative;
+
+  &:hover {
+    .dropdown {
+      display: block;
+    }
+  }
 }
 
-.navLink{
-  @include link-reset;
+.navLink {
   position: relative;
   color: $base-link-color;
 
-  &::after{
-    content: '';
+  &::after {
+    content: "";
     position: absolute;
     bottom: -10px;
     left: 50%;
     right: 50%;
     height: 2px;
     transition: $base-transition;
-    background-color: $green;
+    background-color: $btn-background;
   }
 
-  &:hover{
-    &::after{
+  &:hover {
+    &::after {
       left: 0;
       right: 0;
     }
   }
 }
 
-
-.dropdown{
+.dropdown {
   display: none;
+  position: absolute;
+  top: 30px;
+  left: -10px;
+  min-width: 60px;
+  background-color: $base-background-color;
+  padding: 10px;
+}
+
+.dropdownItem {
+  margin-bottom: 5px;
+}
+
+.dropdownLink {
+  &::after {
+    left: 0;
+    right: 100%;
+  }
+
+  &:hover {
+    &::after {
+      left: 0;
+      right: 0;
+    }
+  }
 }
