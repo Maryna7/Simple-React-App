@@ -1,0 +1,2476 @@
+{
+  "NavData": [
+    {
+      "href": "/home",
+      "text": "home",
+      "id": "d0818982-7cb2-46c3-a56f-3ab44761b87a"
+    },
+    {
+      "href": "/sliders",
+      "text": "sliders",
+      "id": "f5c397e6-420a-4dcd-9a19-85408879d7de",
+      "dropdown": [
+        {
+          "href": "#",
+          "text": "sliders 1",
+          "id": "9cde23de-bcd8-4447-9894-0a1e69833a77"
+        },
+        {
+          "href": "#",
+          "text": "sliders 2",
+          "id": "7836fab8-6d9d-4a53-a6a5-3d5ed1738d3c"
+        },
+        {
+          "href": "#",
+          "text": "sliders 3",
+          "id": "8ab76016-0e15-4664-bb2a-187c1cad4861"
+        }
+      ]
+    },
+    {
+      "href": "/pages",
+      "text": "pages",
+      "id": "8441c345-23dc-4eb8-968f-5cd063ce3766",
+      "dropdown": [
+        {
+          "href": "#",
+          "text": "page 1",
+          "id": "9dbc9fbe-9607-41f8-801e-c446e185616d"
+        },
+        {
+          "href": "#",
+          "text": "page 2",
+          "id": "bede9857-9d79-499c-b79d-504b02a9b043"
+        },
+        {
+          "href": "#",
+          "text": "page 3",
+          "id": "30ee7010-4955-4e00-ac0a-2634b9b18df5"
+        }
+      ]
+    },
+    {
+      "href": "/portfolio",
+      "text": "portfolio",
+      "id": "1cc6c6dd-b605-4c3f-921e-322a64e8a69e"
+    },
+    {
+      "href": "/headers",
+      "text": "headers",
+      "id": "8527af3b-089d-45a7-8879-ae0647b5d891"
+    },
+    {
+      "href": "/blog",
+      "text": "blog",
+      "id": "ceb62b1c-2953-40ce-a154-665fceec5e5e"
+    },
+    {
+      "href": "/search",
+      "text": "search",
+      "id": "a6a3b27a-25d6-4e39-bba3-3e3f20725da2"
+    }
+  ],
+  "BannerData": [
+    {
+      "id": "96086a2c-124d-4925-b4d6-3090138eadfa",
+      "image": "url(\"../../images/baner.jpg\")",
+      "text": [
+        "Website Redesign",
+        "From minor repairs to complete renovation sites transfer from any platform by WordPress."
+      ],
+      "linkUrl": "#",
+      "linkText": "Learn more"
+    }
+  ],
+  "ServiceData": [
+    {
+      "id": "de8b9f69-9e66-4d2a-82c9-a79bcfdee446",
+      "icon": {
+        "type": {
+          "propTypes": {},
+          "defaultProps": {
+            "border": false,
+            "className": "",
+            "mask": null,
+            "maskId": null,
+            "fixedWidth": false,
+            "inverse": false,
+            "flip": false,
+            "icon": null,
+            "listItem": false,
+            "pull": null,
+            "pulse": false,
+            "rotation": null,
+            "size": null,
+            "spin": false,
+            "spinPulse": false,
+            "spinReverse": false,
+            "beat": false,
+            "fade": false,
+            "beatFade": false,
+            "bounce": false,
+            "shake": false,
+            "symbol": false,
+            "title": "",
+            "titleId": null,
+            "transform": null,
+            "swapOpacity": false
+          }
+        },
+        "key": null,
+        "ref": null,
+        "props": {
+          "icon": {
+            "prefix": "fas",
+            "iconName": "wrench",
+            "icon": [
+              512,
+              512,
+              [128295],
+              "f0ad",
+              "M352 320c88.4 0 160-71.6 160-160c0-15.3-2.2-30.1-6.2-44.2c-3.1-10.8-16.4-13.2-24.3-5.3l-76.8 76.8c-3 3-7.1 4.7-11.3 4.7H336c-8.8 0-16-7.2-16-16V118.6c0-4.2 1.7-8.3 4.7-11.3l76.8-76.8c7.9-7.9 5.4-21.2-5.3-24.3C382.1 2.2 367.3 0 352 0C263.6 0 192 71.6 192 160c0 19.1 3.4 37.5 9.5 54.5L19.9 396.1C7.2 408.8 0 426.1 0 444.1C0 481.6 30.4 512 67.9 512c18 0 35.3-7.2 48-19.9L297.5 310.5c17 6.2 35.4 9.5 54.5 9.5zM80 408a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"
+            ]
+          },
+          "border": false,
+          "className": "",
+          "mask": null,
+          "maskId": null,
+          "fixedWidth": false,
+          "inverse": false,
+          "flip": false,
+          "listItem": false,
+          "pull": null,
+          "pulse": false,
+          "rotation": null,
+          "size": null,
+          "spin": false,
+          "spinPulse": false,
+          "spinReverse": false,
+          "beat": false,
+          "fade": false,
+          "beatFade": false,
+          "bounce": false,
+          "shake": false,
+          "symbol": false,
+          "title": "",
+          "titleId": null,
+          "transform": null,
+          "swapOpacity": false
+        },
+        "_owner": null,
+        "_store": {}
+      },
+      "heading": "Web Design & Development",
+      "text": [
+        "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta."
+      ]
+    },
+    {
+      "id": "dcaa5a77-c16f-48d1-8111-9541b1b2da7e",
+      "icon": {
+        "type": {
+          "propTypes": {},
+          "defaultProps": {
+            "border": false,
+            "className": "",
+            "mask": null,
+            "maskId": null,
+            "fixedWidth": false,
+            "inverse": false,
+            "flip": false,
+            "icon": null,
+            "listItem": false,
+            "pull": null,
+            "pulse": false,
+            "rotation": null,
+            "size": null,
+            "spin": false,
+            "spinPulse": false,
+            "spinReverse": false,
+            "beat": false,
+            "fade": false,
+            "beatFade": false,
+            "bounce": false,
+            "shake": false,
+            "symbol": false,
+            "title": "",
+            "titleId": null,
+            "transform": null,
+            "swapOpacity": false
+          }
+        },
+        "key": null,
+        "ref": null,
+        "props": {
+          "icon": {
+            "prefix": "fas",
+            "iconName": "camera-retro",
+            "icon": [
+              512,
+              512,
+              [128247],
+              "f083",
+              "M220.6 121.2L271.1 96 448 96v96H333.2c-21.9-15.1-48.5-24-77.2-24s-55.2 8.9-77.2 24H64V128H192c9.9 0 19.7-2.3 28.6-6.8zM0 128V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H271.1c-9.9 0-19.7 2.3-28.6 6.8L192 64H160V48c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16l0 16C28.7 64 0 92.7 0 128zM168 304a88 88 0 1 1 176 0 88 88 0 1 1 -176 0z"
+            ]
+          },
+          "border": false,
+          "className": "",
+          "mask": null,
+          "maskId": null,
+          "fixedWidth": false,
+          "inverse": false,
+          "flip": false,
+          "listItem": false,
+          "pull": null,
+          "pulse": false,
+          "rotation": null,
+          "size": null,
+          "spin": false,
+          "spinPulse": false,
+          "spinReverse": false,
+          "beat": false,
+          "fade": false,
+          "beatFade": false,
+          "bounce": false,
+          "shake": false,
+          "symbol": false,
+          "title": "",
+          "titleId": null,
+          "transform": null,
+          "swapOpacity": false
+        },
+        "_owner": null,
+        "_store": {}
+      },
+      "heading": "Copywriting & Publishing",
+      "text": [
+        "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
+        "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta."
+      ]
+    },
+    {
+      "id": "ac15bf88-64f5-48e4-911e-5bc346ac4189",
+      "icon": {
+        "type": {
+          "propTypes": {},
+          "defaultProps": {
+            "border": false,
+            "className": "",
+            "mask": null,
+            "maskId": null,
+            "fixedWidth": false,
+            "inverse": false,
+            "flip": false,
+            "icon": null,
+            "listItem": false,
+            "pull": null,
+            "pulse": false,
+            "rotation": null,
+            "size": null,
+            "spin": false,
+            "spinPulse": false,
+            "spinReverse": false,
+            "beat": false,
+            "fade": false,
+            "beatFade": false,
+            "bounce": false,
+            "shake": false,
+            "symbol": false,
+            "title": "",
+            "titleId": null,
+            "transform": null,
+            "swapOpacity": false
+          }
+        },
+        "key": null,
+        "ref": null,
+        "props": {
+          "icon": {
+            "prefix": "fas",
+            "iconName": "laptop",
+            "icon": [
+              640,
+              512,
+              [128187],
+              "f109",
+              "M128 32C92.7 32 64 60.7 64 96V352h64V96H512V352h64V96c0-35.3-28.7-64-64-64H128zM19.2 384C8.6 384 0 392.6 0 403.2C0 445.6 34.4 480 76.8 480H563.2c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2H19.2z"
+            ]
+          },
+          "border": false,
+          "className": "",
+          "mask": null,
+          "maskId": null,
+          "fixedWidth": false,
+          "inverse": false,
+          "flip": false,
+          "listItem": false,
+          "pull": null,
+          "pulse": false,
+          "rotation": null,
+          "size": null,
+          "spin": false,
+          "spinPulse": false,
+          "spinReverse": false,
+          "beat": false,
+          "fade": false,
+          "beatFade": false,
+          "bounce": false,
+          "shake": false,
+          "symbol": false,
+          "title": "",
+          "titleId": null,
+          "transform": null,
+          "swapOpacity": false
+        },
+        "_owner": null,
+        "_store": {}
+      },
+      "heading": "Digital & Offset Printing",
+      "text": [
+        "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta."
+      ]
+    }
+  ],
+  "SortProjectListData": [
+    {
+      "id": "895718f9-5bf0-4149-aa20-834c9317c39f",
+      "href": "#",
+      "linkText": "all"
+    },
+    {
+      "id": "1adbcdb4-f6d9-412d-9008-c4bafccc4921",
+      "href": "#",
+      "linkText": "branding"
+    },
+    {
+      "id": "55cee33b-8b8d-4484-85ff-2ca618894cf0",
+      "href": "#",
+      "linkText": "web"
+    },
+    {
+      "id": "ce02660c-1527-45a5-acb5-a546e6543102",
+      "href": "#",
+      "linkText": "package"
+    },
+    {
+      "id": "fdaf4adb-449f-4860-b4d4-2d80372a5cb1",
+      "href": "#",
+      "linkText": "video"
+    }
+  ],
+  "ProjectListData": [
+    {
+      "id": "4230037e-af43-4a4d-a0df-8ebaa893872b",
+      "href": "#",
+      "imageUrl": "../../images/img-1.jpg",
+      "alt": "project 1",
+      "hoverText": "nice poster"
+    },
+    {
+      "id": "ebeb25f7-c051-416e-a0e6-d5b6c3fc86a3",
+      "href": "#",
+      "imageUrl": "../../images/img-2.jpg",
+      "alt": "project 2",
+      "hoverText": "nice poster"
+    },
+    {
+      "id": "6a8acaf1-0648-4f84-9b3a-2074566cb5cc",
+      "href": "#",
+      "imageUrl": "../../images/img-3.jpg",
+      "alt": "project 3",
+      "hoverText": "nice poster"
+    },
+    {
+      "id": "aa535745-f961-4130-bcd9-e78fe5edc109",
+      "href": "#",
+      "imageUrl": "../../images/img-4.jpg",
+      "alt": "project 4",
+      "hoverText": "nice poster"
+    },
+    {
+      "id": "32281c0f-56a6-4e10-a0c3-a170c4c9291b",
+      "href": "#",
+      "imageUrl": "../../images/img-5.jpg",
+      "alt": "project 5",
+      "hoverText": "nice poster"
+    },
+    {
+      "id": "0e8e80b0-9e34-48e1-8e09-262d2901e797",
+      "href": "#",
+      "imageUrl": "../../images/img-6.jpg",
+      "alt": "project 6",
+      "hoverText": "nice poster"
+    },
+    {
+      "id": "97a5e9d2-163f-4c30-8bb6-b53cabf04b7c",
+      "href": "#",
+      "imageUrl": "../../images/img-7.jpg",
+      "alt": "project 7",
+      "hoverText": "nice poster"
+    },
+    {
+      "id": "433aff58-4379-42f6-8948-e3cdc6289648",
+      "href": "#",
+      "imageUrl": "../../images/img-8.jpg",
+      "alt": "project 8",
+      "hoverText": "nice poster"
+    }
+  ],
+  "AboutSectionData": [
+    {
+      "id": "d3a8aceb-6918-459d-acb0-5a898b57878b",
+      "icon": {
+        "type": {
+          "propTypes": {},
+          "defaultProps": {
+            "border": false,
+            "className": "",
+            "mask": null,
+            "maskId": null,
+            "fixedWidth": false,
+            "inverse": false,
+            "flip": false,
+            "icon": null,
+            "listItem": false,
+            "pull": null,
+            "pulse": false,
+            "rotation": null,
+            "size": null,
+            "spin": false,
+            "spinPulse": false,
+            "spinReverse": false,
+            "beat": false,
+            "fade": false,
+            "beatFade": false,
+            "bounce": false,
+            "shake": false,
+            "symbol": false,
+            "title": "",
+            "titleId": null,
+            "transform": null,
+            "swapOpacity": false
+          }
+        },
+        "key": null,
+        "ref": null,
+        "props": {
+          "icon": {
+            "prefix": "fas",
+            "iconName": "bullhorn",
+            "icon": [
+              512,
+              512,
+              [128226, 128363],
+              "f0a1",
+              "M480 32c0-12.9-7.8-24.6-19.8-29.6s-25.7-2.2-34.9 6.9L381.7 53c-48 48-113.1 75-181 75H192 160 64c-35.3 0-64 28.7-64 64v96c0 35.3 28.7 64 64 64l0 128c0 17.7 14.3 32 32 32h64c17.7 0 32-14.3 32-32V352l8.7 0c67.9 0 133 27 181 75l43.6 43.6c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V300.4c18.6-8.8 32-32.5 32-60.4s-13.4-51.6-32-60.4V32zm-64 76.7V240 371.3C357.2 317.8 280.5 288 200.7 288H192V192h8.7c79.8 0 156.5-29.8 215.3-83.3z"
+            ]
+          },
+          "border": false,
+          "className": "",
+          "mask": null,
+          "maskId": null,
+          "fixedWidth": false,
+          "inverse": false,
+          "flip": false,
+          "listItem": false,
+          "pull": null,
+          "pulse": false,
+          "rotation": null,
+          "size": null,
+          "spin": false,
+          "spinPulse": false,
+          "spinReverse": false,
+          "beat": false,
+          "fade": false,
+          "beatFade": false,
+          "bounce": false,
+          "shake": false,
+          "symbol": false,
+          "title": "",
+          "titleId": null,
+          "transform": null,
+          "swapOpacity": false
+        },
+        "_owner": null,
+        "_store": {}
+      },
+      "headingsNumber": "89%",
+      "heading": "Double the traffic",
+      "text": [
+        "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta."
+      ]
+    },
+    {
+      "id": "66c76047-19c5-42e8-8d94-e2511440548c",
+      "icon": {
+        "type": {
+          "propTypes": {},
+          "defaultProps": {
+            "border": false,
+            "className": "",
+            "mask": null,
+            "maskId": null,
+            "fixedWidth": false,
+            "inverse": false,
+            "flip": false,
+            "icon": null,
+            "listItem": false,
+            "pull": null,
+            "pulse": false,
+            "rotation": null,
+            "size": null,
+            "spin": false,
+            "spinPulse": false,
+            "spinReverse": false,
+            "beat": false,
+            "fade": false,
+            "beatFade": false,
+            "bounce": false,
+            "shake": false,
+            "symbol": false,
+            "title": "",
+            "titleId": null,
+            "transform": null,
+            "swapOpacity": false
+          }
+        },
+        "key": null,
+        "ref": null,
+        "props": {
+          "icon": {
+            "prefix": "far",
+            "iconName": "lightbulb",
+            "icon": [
+              384,
+              512,
+              [128161],
+              "f0eb",
+              "M297.2 248.9C311.6 228.3 320 203.2 320 176c0-70.7-57.3-128-128-128S64 105.3 64 176c0 27.2 8.4 52.3 22.8 72.9c3.7 5.3 8.1 11.3 12.8 17.7l0 0c12.9 17.7 28.3 38.9 39.8 59.8c10.4 19 15.7 38.8 18.3 57.5H109c-2.2-12-5.9-23.7-11.8-34.5c-9.9-18-22.2-34.9-34.5-51.8l0 0 0 0c-5.2-7.1-10.4-14.2-15.4-21.4C27.6 247.9 16 213.3 16 176C16 78.8 94.8 0 192 0s176 78.8 176 176c0 37.3-11.6 71.9-31.4 100.3c-5 7.2-10.2 14.3-15.4 21.4l0 0 0 0c-12.3 16.8-24.6 33.7-34.5 51.8c-5.9 10.8-9.6 22.5-11.8 34.5H226.4c2.6-18.7 7.9-38.6 18.3-57.5c11.5-20.9 26.9-42.1 39.8-59.8l0 0 0 0 0 0c4.7-6.4 9-12.4 12.7-17.7zM192 128c-26.5 0-48 21.5-48 48c0 8.8-7.2 16-16 16s-16-7.2-16-16c0-44.2 35.8-80 80-80c8.8 0 16 7.2 16 16s-7.2 16-16 16zm0 384c-44.2 0-80-35.8-80-80V416H272v16c0 44.2-35.8 80-80 80z"
+            ]
+          },
+          "border": false,
+          "className": "",
+          "mask": null,
+          "maskId": null,
+          "fixedWidth": false,
+          "inverse": false,
+          "flip": false,
+          "listItem": false,
+          "pull": null,
+          "pulse": false,
+          "rotation": null,
+          "size": null,
+          "spin": false,
+          "spinPulse": false,
+          "spinReverse": false,
+          "beat": false,
+          "fade": false,
+          "beatFade": false,
+          "bounce": false,
+          "shake": false,
+          "symbol": false,
+          "title": "",
+          "titleId": null,
+          "transform": null,
+          "swapOpacity": false
+        },
+        "_owner": null,
+        "_store": {}
+      },
+      "headingsNumber": "75%",
+      "heading": "Better Ideas",
+      "text": [
+        "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta."
+      ]
+    },
+    {
+      "id": "064e3b5b-8a4f-4761-8cd6-4fa29401cd71",
+      "icon": {
+        "type": {
+          "propTypes": {},
+          "defaultProps": {
+            "border": false,
+            "className": "",
+            "mask": null,
+            "maskId": null,
+            "fixedWidth": false,
+            "inverse": false,
+            "flip": false,
+            "icon": null,
+            "listItem": false,
+            "pull": null,
+            "pulse": false,
+            "rotation": null,
+            "size": null,
+            "spin": false,
+            "spinPulse": false,
+            "spinReverse": false,
+            "beat": false,
+            "fade": false,
+            "beatFade": false,
+            "bounce": false,
+            "shake": false,
+            "symbol": false,
+            "title": "",
+            "titleId": null,
+            "transform": null,
+            "swapOpacity": false
+          }
+        },
+        "key": null,
+        "ref": null,
+        "props": {
+          "icon": {
+            "prefix": "far",
+            "iconName": "square-check",
+            "icon": [
+              448,
+              512,
+              [9745, 9989, 61510, "check-square"],
+              "f14a",
+              "M64 80c-8.8 0-16 7.2-16 16V416c0 8.8 7.2 16 16 16H384c8.8 0 16-7.2 16-16V96c0-8.8-7.2-16-16-16H64zM0 96C0 60.7 28.7 32 64 32H384c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zM337 209L209 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L303 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"
+            ]
+          },
+          "border": false,
+          "className": "",
+          "mask": null,
+          "maskId": null,
+          "fixedWidth": false,
+          "inverse": false,
+          "flip": false,
+          "listItem": false,
+          "pull": null,
+          "pulse": false,
+          "rotation": null,
+          "size": null,
+          "spin": false,
+          "spinPulse": false,
+          "spinReverse": false,
+          "beat": false,
+          "fade": false,
+          "beatFade": false,
+          "bounce": false,
+          "shake": false,
+          "symbol": false,
+          "title": "",
+          "titleId": null,
+          "transform": null,
+          "swapOpacity": false
+        },
+        "_owner": null,
+        "_store": {}
+      },
+      "headingsNumber": "100%",
+      "heading": "Digital & Offset Printing",
+      "text": [
+        "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta."
+      ]
+    }
+  ],
+  "TeamSectionData": [
+    {
+      "id": "a495eb06-9b22-4e1c-800e-48c78695adbe",
+      "imageUrl": "../../images/team-1.jpg",
+      "imageAlt": "pictures of our staff",
+      "heading": "Lorem Ipsum Dolor",
+      "jobTitle": "Logistics",
+      "text": [
+        "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta."
+      ],
+      "media": [
+        {
+          "id": "afaf7469-749b-4a59-b1ae-7ee8b692664d",
+          "link": "#",
+          "icon": {
+            "type": {
+              "propTypes": {},
+              "defaultProps": {
+                "border": false,
+                "className": "",
+                "mask": null,
+                "maskId": null,
+                "fixedWidth": false,
+                "inverse": false,
+                "flip": false,
+                "icon": null,
+                "listItem": false,
+                "pull": null,
+                "pulse": false,
+                "rotation": null,
+                "size": null,
+                "spin": false,
+                "spinPulse": false,
+                "spinReverse": false,
+                "beat": false,
+                "fade": false,
+                "beatFade": false,
+                "bounce": false,
+                "shake": false,
+                "symbol": false,
+                "title": "",
+                "titleId": null,
+                "transform": null,
+                "swapOpacity": false
+              }
+            },
+            "key": null,
+            "ref": null,
+            "props": {
+              "icon": {
+                "prefix": "fab",
+                "iconName": "square-twitter",
+                "icon": [
+                  448,
+                  512,
+                  ["twitter-square"],
+                  "f081",
+                  "M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM351.3 199.3v0c0 86.7-66 186.6-186.6 186.6c-37.2 0-71.7-10.8-100.7-29.4c5.3 .6 10.4 .8 15.8 .8c30.7 0 58.9-10.4 81.4-28c-28.8-.6-53-19.5-61.3-45.5c10.1 1.5 19.2 1.5 29.6-1.2c-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3c-9-6-16.4-14.1-21.5-23.6s-7.8-20.2-7.7-31c0-12.2 3.2-23.4 8.9-33.1c32.3 39.8 80.8 65.8 135.2 68.6c-9.3-44.5 24-80.6 64-80.6c18.9 0 35.9 7.9 47.9 20.7c14.8-2.8 29-8.3 41.6-15.8c-4.9 15.2-15.2 28-28.8 36.1c13.2-1.4 26-5.1 37.8-10.2c-8.9 13.1-20.1 24.7-32.9 34c.2 2.8 .2 5.7 .2 8.5z"
+                ]
+              },
+              "border": false,
+              "className": "",
+              "mask": null,
+              "maskId": null,
+              "fixedWidth": false,
+              "inverse": false,
+              "flip": false,
+              "listItem": false,
+              "pull": null,
+              "pulse": false,
+              "rotation": null,
+              "size": null,
+              "spin": false,
+              "spinPulse": false,
+              "spinReverse": false,
+              "beat": false,
+              "fade": false,
+              "beatFade": false,
+              "bounce": false,
+              "shake": false,
+              "symbol": false,
+              "title": "",
+              "titleId": null,
+              "transform": null,
+              "swapOpacity": false
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        },
+        {
+          "id": "387ae25c-2892-48be-86a1-f1f4bbd900f1",
+          "link": "#",
+          "icon": {
+            "type": {
+              "propTypes": {},
+              "defaultProps": {
+                "border": false,
+                "className": "",
+                "mask": null,
+                "maskId": null,
+                "fixedWidth": false,
+                "inverse": false,
+                "flip": false,
+                "icon": null,
+                "listItem": false,
+                "pull": null,
+                "pulse": false,
+                "rotation": null,
+                "size": null,
+                "spin": false,
+                "spinPulse": false,
+                "spinReverse": false,
+                "beat": false,
+                "fade": false,
+                "beatFade": false,
+                "bounce": false,
+                "shake": false,
+                "symbol": false,
+                "title": "",
+                "titleId": null,
+                "transform": null,
+                "swapOpacity": false
+              }
+            },
+            "key": null,
+            "ref": null,
+            "props": {
+              "icon": {
+                "prefix": "fab",
+                "iconName": "square-facebook",
+                "icon": [
+                  448,
+                  512,
+                  ["facebook-square"],
+                  "f082",
+                  "M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"
+                ]
+              },
+              "border": false,
+              "className": "",
+              "mask": null,
+              "maskId": null,
+              "fixedWidth": false,
+              "inverse": false,
+              "flip": false,
+              "listItem": false,
+              "pull": null,
+              "pulse": false,
+              "rotation": null,
+              "size": null,
+              "spin": false,
+              "spinPulse": false,
+              "spinReverse": false,
+              "beat": false,
+              "fade": false,
+              "beatFade": false,
+              "bounce": false,
+              "shake": false,
+              "symbol": false,
+              "title": "",
+              "titleId": null,
+              "transform": null,
+              "swapOpacity": false
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        },
+        {
+          "id": "3bef0ab9-d365-44e3-a986-d28c762fc198",
+          "link": "#",
+          "icon": {
+            "type": {
+              "propTypes": {},
+              "defaultProps": {
+                "border": false,
+                "className": "",
+                "mask": null,
+                "maskId": null,
+                "fixedWidth": false,
+                "inverse": false,
+                "flip": false,
+                "icon": null,
+                "listItem": false,
+                "pull": null,
+                "pulse": false,
+                "rotation": null,
+                "size": null,
+                "spin": false,
+                "spinPulse": false,
+                "spinReverse": false,
+                "beat": false,
+                "fade": false,
+                "beatFade": false,
+                "bounce": false,
+                "shake": false,
+                "symbol": false,
+                "title": "",
+                "titleId": null,
+                "transform": null,
+                "swapOpacity": false
+              }
+            },
+            "key": null,
+            "ref": null,
+            "props": {
+              "icon": {
+                "prefix": "fab",
+                "iconName": "linkedin",
+                "icon": [
+                  448,
+                  512,
+                  [],
+                  "f08c",
+                  "M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                ]
+              },
+              "border": false,
+              "className": "",
+              "mask": null,
+              "maskId": null,
+              "fixedWidth": false,
+              "inverse": false,
+              "flip": false,
+              "listItem": false,
+              "pull": null,
+              "pulse": false,
+              "rotation": null,
+              "size": null,
+              "spin": false,
+              "spinPulse": false,
+              "spinReverse": false,
+              "beat": false,
+              "fade": false,
+              "beatFade": false,
+              "bounce": false,
+              "shake": false,
+              "symbol": false,
+              "title": "",
+              "titleId": null,
+              "transform": null,
+              "swapOpacity": false
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        },
+        {
+          "id": "303b0f74-ae67-488b-89ed-ca221b97cfd7",
+          "link": "#",
+          "icon": {
+            "type": {
+              "propTypes": {},
+              "defaultProps": {
+                "border": false,
+                "className": "",
+                "mask": null,
+                "maskId": null,
+                "fixedWidth": false,
+                "inverse": false,
+                "flip": false,
+                "icon": null,
+                "listItem": false,
+                "pull": null,
+                "pulse": false,
+                "rotation": null,
+                "size": null,
+                "spin": false,
+                "spinPulse": false,
+                "spinReverse": false,
+                "beat": false,
+                "fade": false,
+                "beatFade": false,
+                "bounce": false,
+                "shake": false,
+                "symbol": false,
+                "title": "",
+                "titleId": null,
+                "transform": null,
+                "swapOpacity": false
+              }
+            },
+            "key": null,
+            "ref": null,
+            "props": {
+              "icon": {
+                "prefix": "fab",
+                "iconName": "square-pinterest",
+                "icon": [
+                  448,
+                  512,
+                  ["pinterest-square"],
+                  "f0d3",
+                  "M384 32H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h72.6l-2.2-.8c-5.4-48.1-3.1-57.5 15.7-134.7c3.9-16 8.5-35 13.9-57.9c0 0-7.3-14.8-7.3-36.5c0-70.7 75.5-78 75.5-25c0 13.5-5.4 31.1-11.2 49.8c-3.3 10.6-6.6 21.5-9.1 32c-5.7 24.5 12.3 44.4 36.4 44.4c43.7 0 77.2-46 77.2-112.4c0-58.8-42.3-99.9-102.6-99.9C153 139 112 191.4 112 245.6c0 21.1 8.2 43.7 18.3 56c2 2.4 2.3 4.5 1.7 7c-1.1 4.7-3.1 12.9-4.7 19.2c-1 4-1.8 7.3-2.1 8.6c-1.1 4.5-3.5 5.5-8.2 3.3c-30.6-14.3-49.8-59.1-49.8-95.1C67.2 167.1 123.4 96 229.4 96c85.2 0 151.4 60.7 151.4 141.8c0 84.6-53.3 152.7-127.4 152.7c-24.9 0-48.3-12.9-56.3-28.2c0 0-12.3 46.9-15.3 58.4c-5 19.3-17.6 42.9-27.4 59.3H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64z"
+                ]
+              },
+              "border": false,
+              "className": "",
+              "mask": null,
+              "maskId": null,
+              "fixedWidth": false,
+              "inverse": false,
+              "flip": false,
+              "listItem": false,
+              "pull": null,
+              "pulse": false,
+              "rotation": null,
+              "size": null,
+              "spin": false,
+              "spinPulse": false,
+              "spinReverse": false,
+              "beat": false,
+              "fade": false,
+              "beatFade": false,
+              "bounce": false,
+              "shake": false,
+              "symbol": false,
+              "title": "",
+              "titleId": null,
+              "transform": null,
+              "swapOpacity": false
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        },
+        {
+          "id": "163f9b0e-4d36-43ad-9399-5a7895a221a9",
+          "link": "#",
+          "icon": {
+            "type": {
+              "propTypes": {},
+              "defaultProps": {
+                "border": false,
+                "className": "",
+                "mask": null,
+                "maskId": null,
+                "fixedWidth": false,
+                "inverse": false,
+                "flip": false,
+                "icon": null,
+                "listItem": false,
+                "pull": null,
+                "pulse": false,
+                "rotation": null,
+                "size": null,
+                "spin": false,
+                "spinPulse": false,
+                "spinReverse": false,
+                "beat": false,
+                "fade": false,
+                "beatFade": false,
+                "bounce": false,
+                "shake": false,
+                "symbol": false,
+                "title": "",
+                "titleId": null,
+                "transform": null,
+                "swapOpacity": false
+              }
+            },
+            "key": null,
+            "ref": null,
+            "props": {
+              "icon": {
+                "prefix": "fab",
+                "iconName": "square-google-plus",
+                "icon": [
+                  448,
+                  512,
+                  ["google-plus-square"],
+                  "f0d4",
+                  "M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM64 256c0-55.3 44.7-100 100-100c27 0 49.5 9.8 67 26.2l-27.1 26.1c-7.4-7.1-20.3-15.4-39.8-15.4c-34.1 0-61.9 28.2-61.9 63.2c0 34.9 27.8 63.2 61.9 63.2c39.6 0 54.4-28.5 56.8-43.1H164V241.8h94.4c1 5 1.6 10.1 1.6 16.6c0 57.1-38.3 97.6-96 97.6c-55.3 0-100-44.7-100-100zm291 18.2v29H325.8v-29h-29V245h29V216H355v29h29v29.2H355z"
+                ]
+              },
+              "border": false,
+              "className": "",
+              "mask": null,
+              "maskId": null,
+              "fixedWidth": false,
+              "inverse": false,
+              "flip": false,
+              "listItem": false,
+              "pull": null,
+              "pulse": false,
+              "rotation": null,
+              "size": null,
+              "spin": false,
+              "spinPulse": false,
+              "spinReverse": false,
+              "beat": false,
+              "fade": false,
+              "beatFade": false,
+              "bounce": false,
+              "shake": false,
+              "symbol": false,
+              "title": "",
+              "titleId": null,
+              "transform": null,
+              "swapOpacity": false
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        },
+        {
+          "id": "90a2a249-9107-4caa-b190-10bd6218ab60",
+          "link": "#",
+          "icon": {
+            "type": {
+              "propTypes": {},
+              "defaultProps": {
+                "border": false,
+                "className": "",
+                "mask": null,
+                "maskId": null,
+                "fixedWidth": false,
+                "inverse": false,
+                "flip": false,
+                "icon": null,
+                "listItem": false,
+                "pull": null,
+                "pulse": false,
+                "rotation": null,
+                "size": null,
+                "spin": false,
+                "spinPulse": false,
+                "spinReverse": false,
+                "beat": false,
+                "fade": false,
+                "beatFade": false,
+                "bounce": false,
+                "shake": false,
+                "symbol": false,
+                "title": "",
+                "titleId": null,
+                "transform": null,
+                "swapOpacity": false
+              }
+            },
+            "key": null,
+            "ref": null,
+            "props": {
+              "icon": {
+                "prefix": "fab",
+                "iconName": "youtube",
+                "icon": [
+                  576,
+                  512,
+                  [61802],
+                  "f167",
+                  "M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+                ]
+              },
+              "border": false,
+              "className": "",
+              "mask": null,
+              "maskId": null,
+              "fixedWidth": false,
+              "inverse": false,
+              "flip": false,
+              "listItem": false,
+              "pull": null,
+              "pulse": false,
+              "rotation": null,
+              "size": null,
+              "spin": false,
+              "spinPulse": false,
+              "spinReverse": false,
+              "beat": false,
+              "fade": false,
+              "beatFade": false,
+              "bounce": false,
+              "shake": false,
+              "symbol": false,
+              "title": "",
+              "titleId": null,
+              "transform": null,
+              "swapOpacity": false
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "e845b201-4197-425f-acd4-d978cc2379fc",
+      "imageUrl": "../../images/team-2.jpg",
+      "imageAlt": "pictures of our staff",
+      "heading": "Lorem Ipsum Dolor",
+      "jobTitle": "Support Guru",
+      "text": [
+        "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta."
+      ],
+      "media": [
+        {
+          "id": "6fa815d3-9f0d-428e-873e-89467daaab6b",
+          "link": "#",
+          "icon": {
+            "type": {
+              "propTypes": {},
+              "defaultProps": {
+                "border": false,
+                "className": "",
+                "mask": null,
+                "maskId": null,
+                "fixedWidth": false,
+                "inverse": false,
+                "flip": false,
+                "icon": null,
+                "listItem": false,
+                "pull": null,
+                "pulse": false,
+                "rotation": null,
+                "size": null,
+                "spin": false,
+                "spinPulse": false,
+                "spinReverse": false,
+                "beat": false,
+                "fade": false,
+                "beatFade": false,
+                "bounce": false,
+                "shake": false,
+                "symbol": false,
+                "title": "",
+                "titleId": null,
+                "transform": null,
+                "swapOpacity": false
+              }
+            },
+            "key": null,
+            "ref": null,
+            "props": {
+              "icon": {
+                "prefix": "fab",
+                "iconName": "square-twitter",
+                "icon": [
+                  448,
+                  512,
+                  ["twitter-square"],
+                  "f081",
+                  "M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM351.3 199.3v0c0 86.7-66 186.6-186.6 186.6c-37.2 0-71.7-10.8-100.7-29.4c5.3 .6 10.4 .8 15.8 .8c30.7 0 58.9-10.4 81.4-28c-28.8-.6-53-19.5-61.3-45.5c10.1 1.5 19.2 1.5 29.6-1.2c-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3c-9-6-16.4-14.1-21.5-23.6s-7.8-20.2-7.7-31c0-12.2 3.2-23.4 8.9-33.1c32.3 39.8 80.8 65.8 135.2 68.6c-9.3-44.5 24-80.6 64-80.6c18.9 0 35.9 7.9 47.9 20.7c14.8-2.8 29-8.3 41.6-15.8c-4.9 15.2-15.2 28-28.8 36.1c13.2-1.4 26-5.1 37.8-10.2c-8.9 13.1-20.1 24.7-32.9 34c.2 2.8 .2 5.7 .2 8.5z"
+                ]
+              },
+              "border": false,
+              "className": "",
+              "mask": null,
+              "maskId": null,
+              "fixedWidth": false,
+              "inverse": false,
+              "flip": false,
+              "listItem": false,
+              "pull": null,
+              "pulse": false,
+              "rotation": null,
+              "size": null,
+              "spin": false,
+              "spinPulse": false,
+              "spinReverse": false,
+              "beat": false,
+              "fade": false,
+              "beatFade": false,
+              "bounce": false,
+              "shake": false,
+              "symbol": false,
+              "title": "",
+              "titleId": null,
+              "transform": null,
+              "swapOpacity": false
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        },
+        {
+          "id": "10c8490e-7393-47be-b141-a4ff14901370",
+          "link": "#",
+          "icon": {
+            "type": {
+              "propTypes": {},
+              "defaultProps": {
+                "border": false,
+                "className": "",
+                "mask": null,
+                "maskId": null,
+                "fixedWidth": false,
+                "inverse": false,
+                "flip": false,
+                "icon": null,
+                "listItem": false,
+                "pull": null,
+                "pulse": false,
+                "rotation": null,
+                "size": null,
+                "spin": false,
+                "spinPulse": false,
+                "spinReverse": false,
+                "beat": false,
+                "fade": false,
+                "beatFade": false,
+                "bounce": false,
+                "shake": false,
+                "symbol": false,
+                "title": "",
+                "titleId": null,
+                "transform": null,
+                "swapOpacity": false
+              }
+            },
+            "key": null,
+            "ref": null,
+            "props": {
+              "icon": {
+                "prefix": "fab",
+                "iconName": "square-facebook",
+                "icon": [
+                  448,
+                  512,
+                  ["facebook-square"],
+                  "f082",
+                  "M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"
+                ]
+              },
+              "border": false,
+              "className": "",
+              "mask": null,
+              "maskId": null,
+              "fixedWidth": false,
+              "inverse": false,
+              "flip": false,
+              "listItem": false,
+              "pull": null,
+              "pulse": false,
+              "rotation": null,
+              "size": null,
+              "spin": false,
+              "spinPulse": false,
+              "spinReverse": false,
+              "beat": false,
+              "fade": false,
+              "beatFade": false,
+              "bounce": false,
+              "shake": false,
+              "symbol": false,
+              "title": "",
+              "titleId": null,
+              "transform": null,
+              "swapOpacity": false
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        },
+        {
+          "id": "b735b948-62d2-4b37-bd7a-445ee43a8749",
+          "link": "#",
+          "icon": {
+            "type": {
+              "propTypes": {},
+              "defaultProps": {
+                "border": false,
+                "className": "",
+                "mask": null,
+                "maskId": null,
+                "fixedWidth": false,
+                "inverse": false,
+                "flip": false,
+                "icon": null,
+                "listItem": false,
+                "pull": null,
+                "pulse": false,
+                "rotation": null,
+                "size": null,
+                "spin": false,
+                "spinPulse": false,
+                "spinReverse": false,
+                "beat": false,
+                "fade": false,
+                "beatFade": false,
+                "bounce": false,
+                "shake": false,
+                "symbol": false,
+                "title": "",
+                "titleId": null,
+                "transform": null,
+                "swapOpacity": false
+              }
+            },
+            "key": null,
+            "ref": null,
+            "props": {
+              "icon": {
+                "prefix": "fab",
+                "iconName": "linkedin",
+                "icon": [
+                  448,
+                  512,
+                  [],
+                  "f08c",
+                  "M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                ]
+              },
+              "border": false,
+              "className": "",
+              "mask": null,
+              "maskId": null,
+              "fixedWidth": false,
+              "inverse": false,
+              "flip": false,
+              "listItem": false,
+              "pull": null,
+              "pulse": false,
+              "rotation": null,
+              "size": null,
+              "spin": false,
+              "spinPulse": false,
+              "spinReverse": false,
+              "beat": false,
+              "fade": false,
+              "beatFade": false,
+              "bounce": false,
+              "shake": false,
+              "symbol": false,
+              "title": "",
+              "titleId": null,
+              "transform": null,
+              "swapOpacity": false
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        },
+        {
+          "id": "90e33921-bafe-4e5b-bc72-ce5b583ff5e6",
+          "link": "#",
+          "icon": {
+            "type": {
+              "propTypes": {},
+              "defaultProps": {
+                "border": false,
+                "className": "",
+                "mask": null,
+                "maskId": null,
+                "fixedWidth": false,
+                "inverse": false,
+                "flip": false,
+                "icon": null,
+                "listItem": false,
+                "pull": null,
+                "pulse": false,
+                "rotation": null,
+                "size": null,
+                "spin": false,
+                "spinPulse": false,
+                "spinReverse": false,
+                "beat": false,
+                "fade": false,
+                "beatFade": false,
+                "bounce": false,
+                "shake": false,
+                "symbol": false,
+                "title": "",
+                "titleId": null,
+                "transform": null,
+                "swapOpacity": false
+              }
+            },
+            "key": null,
+            "ref": null,
+            "props": {
+              "icon": {
+                "prefix": "fab",
+                "iconName": "square-pinterest",
+                "icon": [
+                  448,
+                  512,
+                  ["pinterest-square"],
+                  "f0d3",
+                  "M384 32H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h72.6l-2.2-.8c-5.4-48.1-3.1-57.5 15.7-134.7c3.9-16 8.5-35 13.9-57.9c0 0-7.3-14.8-7.3-36.5c0-70.7 75.5-78 75.5-25c0 13.5-5.4 31.1-11.2 49.8c-3.3 10.6-6.6 21.5-9.1 32c-5.7 24.5 12.3 44.4 36.4 44.4c43.7 0 77.2-46 77.2-112.4c0-58.8-42.3-99.9-102.6-99.9C153 139 112 191.4 112 245.6c0 21.1 8.2 43.7 18.3 56c2 2.4 2.3 4.5 1.7 7c-1.1 4.7-3.1 12.9-4.7 19.2c-1 4-1.8 7.3-2.1 8.6c-1.1 4.5-3.5 5.5-8.2 3.3c-30.6-14.3-49.8-59.1-49.8-95.1C67.2 167.1 123.4 96 229.4 96c85.2 0 151.4 60.7 151.4 141.8c0 84.6-53.3 152.7-127.4 152.7c-24.9 0-48.3-12.9-56.3-28.2c0 0-12.3 46.9-15.3 58.4c-5 19.3-17.6 42.9-27.4 59.3H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64z"
+                ]
+              },
+              "border": false,
+              "className": "",
+              "mask": null,
+              "maskId": null,
+              "fixedWidth": false,
+              "inverse": false,
+              "flip": false,
+              "listItem": false,
+              "pull": null,
+              "pulse": false,
+              "rotation": null,
+              "size": null,
+              "spin": false,
+              "spinPulse": false,
+              "spinReverse": false,
+              "beat": false,
+              "fade": false,
+              "beatFade": false,
+              "bounce": false,
+              "shake": false,
+              "symbol": false,
+              "title": "",
+              "titleId": null,
+              "transform": null,
+              "swapOpacity": false
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        },
+        {
+          "id": "081b625d-440c-4c2a-8369-efdbb80ec0b4",
+          "link": "#",
+          "icon": {
+            "type": {
+              "propTypes": {},
+              "defaultProps": {
+                "border": false,
+                "className": "",
+                "mask": null,
+                "maskId": null,
+                "fixedWidth": false,
+                "inverse": false,
+                "flip": false,
+                "icon": null,
+                "listItem": false,
+                "pull": null,
+                "pulse": false,
+                "rotation": null,
+                "size": null,
+                "spin": false,
+                "spinPulse": false,
+                "spinReverse": false,
+                "beat": false,
+                "fade": false,
+                "beatFade": false,
+                "bounce": false,
+                "shake": false,
+                "symbol": false,
+                "title": "",
+                "titleId": null,
+                "transform": null,
+                "swapOpacity": false
+              }
+            },
+            "key": null,
+            "ref": null,
+            "props": {
+              "icon": {
+                "prefix": "fab",
+                "iconName": "square-google-plus",
+                "icon": [
+                  448,
+                  512,
+                  ["google-plus-square"],
+                  "f0d4",
+                  "M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM64 256c0-55.3 44.7-100 100-100c27 0 49.5 9.8 67 26.2l-27.1 26.1c-7.4-7.1-20.3-15.4-39.8-15.4c-34.1 0-61.9 28.2-61.9 63.2c0 34.9 27.8 63.2 61.9 63.2c39.6 0 54.4-28.5 56.8-43.1H164V241.8h94.4c1 5 1.6 10.1 1.6 16.6c0 57.1-38.3 97.6-96 97.6c-55.3 0-100-44.7-100-100zm291 18.2v29H325.8v-29h-29V245h29V216H355v29h29v29.2H355z"
+                ]
+              },
+              "border": false,
+              "className": "",
+              "mask": null,
+              "maskId": null,
+              "fixedWidth": false,
+              "inverse": false,
+              "flip": false,
+              "listItem": false,
+              "pull": null,
+              "pulse": false,
+              "rotation": null,
+              "size": null,
+              "spin": false,
+              "spinPulse": false,
+              "spinReverse": false,
+              "beat": false,
+              "fade": false,
+              "beatFade": false,
+              "bounce": false,
+              "shake": false,
+              "symbol": false,
+              "title": "",
+              "titleId": null,
+              "transform": null,
+              "swapOpacity": false
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        },
+        {
+          "id": "23c88172-9d2d-47ea-9012-812aca9993e6",
+          "link": "#",
+          "icon": {
+            "type": {
+              "propTypes": {},
+              "defaultProps": {
+                "border": false,
+                "className": "",
+                "mask": null,
+                "maskId": null,
+                "fixedWidth": false,
+                "inverse": false,
+                "flip": false,
+                "icon": null,
+                "listItem": false,
+                "pull": null,
+                "pulse": false,
+                "rotation": null,
+                "size": null,
+                "spin": false,
+                "spinPulse": false,
+                "spinReverse": false,
+                "beat": false,
+                "fade": false,
+                "beatFade": false,
+                "bounce": false,
+                "shake": false,
+                "symbol": false,
+                "title": "",
+                "titleId": null,
+                "transform": null,
+                "swapOpacity": false
+              }
+            },
+            "key": null,
+            "ref": null,
+            "props": {
+              "icon": {
+                "prefix": "fab",
+                "iconName": "youtube",
+                "icon": [
+                  576,
+                  512,
+                  [61802],
+                  "f167",
+                  "M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+                ]
+              },
+              "border": false,
+              "className": "",
+              "mask": null,
+              "maskId": null,
+              "fixedWidth": false,
+              "inverse": false,
+              "flip": false,
+              "listItem": false,
+              "pull": null,
+              "pulse": false,
+              "rotation": null,
+              "size": null,
+              "spin": false,
+              "spinPulse": false,
+              "spinReverse": false,
+              "beat": false,
+              "fade": false,
+              "beatFade": false,
+              "bounce": false,
+              "shake": false,
+              "symbol": false,
+              "title": "",
+              "titleId": null,
+              "transform": null,
+              "swapOpacity": false
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        }
+      ]
+    },
+    {
+      "id": "13f31a00-c05b-4f3b-b591-52231cd8380a",
+      "imageUrl": "../../images/team-3.jpg",
+      "imageAlt": "pictures of our staff",
+      "heading": "Lorem Ipsum Dolor",
+      "jobTitle": "Logistics",
+      "text": [
+        "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
+        "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta."
+      ],
+      "media": [
+        {
+          "id": "ce779a16-e34a-43d4-9381-672a64478522",
+          "link": "#",
+          "icon": {
+            "type": {
+              "propTypes": {},
+              "defaultProps": {
+                "border": false,
+                "className": "",
+                "mask": null,
+                "maskId": null,
+                "fixedWidth": false,
+                "inverse": false,
+                "flip": false,
+                "icon": null,
+                "listItem": false,
+                "pull": null,
+                "pulse": false,
+                "rotation": null,
+                "size": null,
+                "spin": false,
+                "spinPulse": false,
+                "spinReverse": false,
+                "beat": false,
+                "fade": false,
+                "beatFade": false,
+                "bounce": false,
+                "shake": false,
+                "symbol": false,
+                "title": "",
+                "titleId": null,
+                "transform": null,
+                "swapOpacity": false
+              }
+            },
+            "key": null,
+            "ref": null,
+            "props": {
+              "icon": {
+                "prefix": "fab",
+                "iconName": "square-twitter",
+                "icon": [
+                  448,
+                  512,
+                  ["twitter-square"],
+                  "f081",
+                  "M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM351.3 199.3v0c0 86.7-66 186.6-186.6 186.6c-37.2 0-71.7-10.8-100.7-29.4c5.3 .6 10.4 .8 15.8 .8c30.7 0 58.9-10.4 81.4-28c-28.8-.6-53-19.5-61.3-45.5c10.1 1.5 19.2 1.5 29.6-1.2c-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3c-9-6-16.4-14.1-21.5-23.6s-7.8-20.2-7.7-31c0-12.2 3.2-23.4 8.9-33.1c32.3 39.8 80.8 65.8 135.2 68.6c-9.3-44.5 24-80.6 64-80.6c18.9 0 35.9 7.9 47.9 20.7c14.8-2.8 29-8.3 41.6-15.8c-4.9 15.2-15.2 28-28.8 36.1c13.2-1.4 26-5.1 37.8-10.2c-8.9 13.1-20.1 24.7-32.9 34c.2 2.8 .2 5.7 .2 8.5z"
+                ]
+              },
+              "border": false,
+              "className": "",
+              "mask": null,
+              "maskId": null,
+              "fixedWidth": false,
+              "inverse": false,
+              "flip": false,
+              "listItem": false,
+              "pull": null,
+              "pulse": false,
+              "rotation": null,
+              "size": null,
+              "spin": false,
+              "spinPulse": false,
+              "spinReverse": false,
+              "beat": false,
+              "fade": false,
+              "beatFade": false,
+              "bounce": false,
+              "shake": false,
+              "symbol": false,
+              "title": "",
+              "titleId": null,
+              "transform": null,
+              "swapOpacity": false
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        },
+        {
+          "id": "85bc16e4-39cb-4ed6-9a24-567a0772d585",
+          "link": "#",
+          "icon": {
+            "type": {
+              "propTypes": {},
+              "defaultProps": {
+                "border": false,
+                "className": "",
+                "mask": null,
+                "maskId": null,
+                "fixedWidth": false,
+                "inverse": false,
+                "flip": false,
+                "icon": null,
+                "listItem": false,
+                "pull": null,
+                "pulse": false,
+                "rotation": null,
+                "size": null,
+                "spin": false,
+                "spinPulse": false,
+                "spinReverse": false,
+                "beat": false,
+                "fade": false,
+                "beatFade": false,
+                "bounce": false,
+                "shake": false,
+                "symbol": false,
+                "title": "",
+                "titleId": null,
+                "transform": null,
+                "swapOpacity": false
+              }
+            },
+            "key": null,
+            "ref": null,
+            "props": {
+              "icon": {
+                "prefix": "fab",
+                "iconName": "square-facebook",
+                "icon": [
+                  448,
+                  512,
+                  ["facebook-square"],
+                  "f082",
+                  "M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"
+                ]
+              },
+              "border": false,
+              "className": "",
+              "mask": null,
+              "maskId": null,
+              "fixedWidth": false,
+              "inverse": false,
+              "flip": false,
+              "listItem": false,
+              "pull": null,
+              "pulse": false,
+              "rotation": null,
+              "size": null,
+              "spin": false,
+              "spinPulse": false,
+              "spinReverse": false,
+              "beat": false,
+              "fade": false,
+              "beatFade": false,
+              "bounce": false,
+              "shake": false,
+              "symbol": false,
+              "title": "",
+              "titleId": null,
+              "transform": null,
+              "swapOpacity": false
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        },
+        {
+          "id": "00a4b996-36c7-472a-bc85-616137a54802",
+          "link": "#",
+          "icon": {
+            "type": {
+              "propTypes": {},
+              "defaultProps": {
+                "border": false,
+                "className": "",
+                "mask": null,
+                "maskId": null,
+                "fixedWidth": false,
+                "inverse": false,
+                "flip": false,
+                "icon": null,
+                "listItem": false,
+                "pull": null,
+                "pulse": false,
+                "rotation": null,
+                "size": null,
+                "spin": false,
+                "spinPulse": false,
+                "spinReverse": false,
+                "beat": false,
+                "fade": false,
+                "beatFade": false,
+                "bounce": false,
+                "shake": false,
+                "symbol": false,
+                "title": "",
+                "titleId": null,
+                "transform": null,
+                "swapOpacity": false
+              }
+            },
+            "key": null,
+            "ref": null,
+            "props": {
+              "icon": {
+                "prefix": "fab",
+                "iconName": "linkedin",
+                "icon": [
+                  448,
+                  512,
+                  [],
+                  "f08c",
+                  "M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                ]
+              },
+              "border": false,
+              "className": "",
+              "mask": null,
+              "maskId": null,
+              "fixedWidth": false,
+              "inverse": false,
+              "flip": false,
+              "listItem": false,
+              "pull": null,
+              "pulse": false,
+              "rotation": null,
+              "size": null,
+              "spin": false,
+              "spinPulse": false,
+              "spinReverse": false,
+              "beat": false,
+              "fade": false,
+              "beatFade": false,
+              "bounce": false,
+              "shake": false,
+              "symbol": false,
+              "title": "",
+              "titleId": null,
+              "transform": null,
+              "swapOpacity": false
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        },
+        {
+          "id": "b2810630-c3cd-4c07-a788-e348d2ae5be9",
+          "link": "#",
+          "icon": {
+            "type": {
+              "propTypes": {},
+              "defaultProps": {
+                "border": false,
+                "className": "",
+                "mask": null,
+                "maskId": null,
+                "fixedWidth": false,
+                "inverse": false,
+                "flip": false,
+                "icon": null,
+                "listItem": false,
+                "pull": null,
+                "pulse": false,
+                "rotation": null,
+                "size": null,
+                "spin": false,
+                "spinPulse": false,
+                "spinReverse": false,
+                "beat": false,
+                "fade": false,
+                "beatFade": false,
+                "bounce": false,
+                "shake": false,
+                "symbol": false,
+                "title": "",
+                "titleId": null,
+                "transform": null,
+                "swapOpacity": false
+              }
+            },
+            "key": null,
+            "ref": null,
+            "props": {
+              "icon": {
+                "prefix": "fab",
+                "iconName": "square-pinterest",
+                "icon": [
+                  448,
+                  512,
+                  ["pinterest-square"],
+                  "f0d3",
+                  "M384 32H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h72.6l-2.2-.8c-5.4-48.1-3.1-57.5 15.7-134.7c3.9-16 8.5-35 13.9-57.9c0 0-7.3-14.8-7.3-36.5c0-70.7 75.5-78 75.5-25c0 13.5-5.4 31.1-11.2 49.8c-3.3 10.6-6.6 21.5-9.1 32c-5.7 24.5 12.3 44.4 36.4 44.4c43.7 0 77.2-46 77.2-112.4c0-58.8-42.3-99.9-102.6-99.9C153 139 112 191.4 112 245.6c0 21.1 8.2 43.7 18.3 56c2 2.4 2.3 4.5 1.7 7c-1.1 4.7-3.1 12.9-4.7 19.2c-1 4-1.8 7.3-2.1 8.6c-1.1 4.5-3.5 5.5-8.2 3.3c-30.6-14.3-49.8-59.1-49.8-95.1C67.2 167.1 123.4 96 229.4 96c85.2 0 151.4 60.7 151.4 141.8c0 84.6-53.3 152.7-127.4 152.7c-24.9 0-48.3-12.9-56.3-28.2c0 0-12.3 46.9-15.3 58.4c-5 19.3-17.6 42.9-27.4 59.3H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64z"
+                ]
+              },
+              "border": false,
+              "className": "",
+              "mask": null,
+              "maskId": null,
+              "fixedWidth": false,
+              "inverse": false,
+              "flip": false,
+              "listItem": false,
+              "pull": null,
+              "pulse": false,
+              "rotation": null,
+              "size": null,
+              "spin": false,
+              "spinPulse": false,
+              "spinReverse": false,
+              "beat": false,
+              "fade": false,
+              "beatFade": false,
+              "bounce": false,
+              "shake": false,
+              "symbol": false,
+              "title": "",
+              "titleId": null,
+              "transform": null,
+              "swapOpacity": false
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        },
+        {
+          "id": "bd719bb6-8709-4020-8cb4-c2c70c79451b",
+          "link": "#",
+          "icon": {
+            "type": {
+              "propTypes": {},
+              "defaultProps": {
+                "border": false,
+                "className": "",
+                "mask": null,
+                "maskId": null,
+                "fixedWidth": false,
+                "inverse": false,
+                "flip": false,
+                "icon": null,
+                "listItem": false,
+                "pull": null,
+                "pulse": false,
+                "rotation": null,
+                "size": null,
+                "spin": false,
+                "spinPulse": false,
+                "spinReverse": false,
+                "beat": false,
+                "fade": false,
+                "beatFade": false,
+                "bounce": false,
+                "shake": false,
+                "symbol": false,
+                "title": "",
+                "titleId": null,
+                "transform": null,
+                "swapOpacity": false
+              }
+            },
+            "key": null,
+            "ref": null,
+            "props": {
+              "icon": {
+                "prefix": "fab",
+                "iconName": "square-google-plus",
+                "icon": [
+                  448,
+                  512,
+                  ["google-plus-square"],
+                  "f0d4",
+                  "M448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM64 256c0-55.3 44.7-100 100-100c27 0 49.5 9.8 67 26.2l-27.1 26.1c-7.4-7.1-20.3-15.4-39.8-15.4c-34.1 0-61.9 28.2-61.9 63.2c0 34.9 27.8 63.2 61.9 63.2c39.6 0 54.4-28.5 56.8-43.1H164V241.8h94.4c1 5 1.6 10.1 1.6 16.6c0 57.1-38.3 97.6-96 97.6c-55.3 0-100-44.7-100-100zm291 18.2v29H325.8v-29h-29V245h29V216H355v29h29v29.2H355z"
+                ]
+              },
+              "border": false,
+              "className": "",
+              "mask": null,
+              "maskId": null,
+              "fixedWidth": false,
+              "inverse": false,
+              "flip": false,
+              "listItem": false,
+              "pull": null,
+              "pulse": false,
+              "rotation": null,
+              "size": null,
+              "spin": false,
+              "spinPulse": false,
+              "spinReverse": false,
+              "beat": false,
+              "fade": false,
+              "beatFade": false,
+              "bounce": false,
+              "shake": false,
+              "symbol": false,
+              "title": "",
+              "titleId": null,
+              "transform": null,
+              "swapOpacity": false
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        },
+        {
+          "id": "ae789d45-cfa2-46c7-a385-6e65e52fedb6",
+          "link": "#",
+          "icon": {
+            "type": {
+              "propTypes": {},
+              "defaultProps": {
+                "border": false,
+                "className": "",
+                "mask": null,
+                "maskId": null,
+                "fixedWidth": false,
+                "inverse": false,
+                "flip": false,
+                "icon": null,
+                "listItem": false,
+                "pull": null,
+                "pulse": false,
+                "rotation": null,
+                "size": null,
+                "spin": false,
+                "spinPulse": false,
+                "spinReverse": false,
+                "beat": false,
+                "fade": false,
+                "beatFade": false,
+                "bounce": false,
+                "shake": false,
+                "symbol": false,
+                "title": "",
+                "titleId": null,
+                "transform": null,
+                "swapOpacity": false
+              }
+            },
+            "key": null,
+            "ref": null,
+            "props": {
+              "icon": {
+                "prefix": "fab",
+                "iconName": "youtube",
+                "icon": [
+                  576,
+                  512,
+                  [61802],
+                  "f167",
+                  "M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+                ]
+              },
+              "border": false,
+              "className": "",
+              "mask": null,
+              "maskId": null,
+              "fixedWidth": false,
+              "inverse": false,
+              "flip": false,
+              "listItem": false,
+              "pull": null,
+              "pulse": false,
+              "rotation": null,
+              "size": null,
+              "spin": false,
+              "spinPulse": false,
+              "spinReverse": false,
+              "beat": false,
+              "fade": false,
+              "beatFade": false,
+              "bounce": false,
+              "shake": false,
+              "symbol": false,
+              "title": "",
+              "titleId": null,
+              "transform": null,
+              "swapOpacity": false
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        }
+      ]
+    }
+  ],
+  "PortfolioData": [
+    {
+      "id": "5802c7b4-2bad-44c0-8817-ba845d2dd585",
+      "imgList": [
+        {
+          "imgUrl": "../../images/img-14.jpg",
+          "imgAlt": "plant in the office",
+          "href": "#"
+        },
+        {
+          "imgUrl": "../../images/img-15.jpg",
+          "imgAlt": "retro radio",
+          "href": "#"
+        },
+        {
+          "imgUrl": "../../images/img-16.jpg",
+          "imgAlt": "magazins",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "fe1e85d1-dbc9-461e-8602-1d865ac5a04d",
+      "imgList": [
+        {
+          "imgUrl": "../../images/img-13.jpg",
+          "imgAlt": "magazine of the company",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "a93fad68-79a2-4596-b900-36cf1c1dec1d",
+      "imgList": [
+        { "imgUrl": "../../images/img-9.jpg", "imgAlt": "forest", "href": "#" },
+        {
+          "imgUrl": "../../images/img-10.jpg",
+          "imgAlt": "documents",
+          "href": "#"
+        },
+        {
+          "imgUrl": "../../images/img-11.jpg",
+          "imgAlt": "calendar cards",
+          "href": "#"
+        },
+        {
+          "imgUrl": "../../images/img-12.jpg",
+          "imgAlt": "retro camera",
+          "href": "#"
+        }
+      ]
+    }
+  ],
+  "BlogListData": [
+    {
+      "id": "30bd9070-3ff9-4cce-ad53-0acf432459b7",
+      "image": "url(\"../../images/img-1.jpg\")",
+      "heading": "The Future of Food",
+      "text": [
+        "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
+        "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta."
+      ],
+      "author": "By Admin",
+      "date": "Aug 28|2023",
+      "href": "#"
+    },
+    {
+      "id": "1d7b2b19-c570-4aa5-94f5-f4e1c7835135",
+      "image": "url(\"../../images/img-3.jpg\")",
+      "heading": "The Future of Food",
+      "text": [
+        "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta."
+      ],
+      "author": "By Admin",
+      "date": "Aug 28|2023",
+      "href": "#"
+    },
+    {
+      "id": "c41ed60c-3f40-4df7-a05e-274fc6b48fb1",
+      "image": "url(\"../../images/img-6.jpg\")",
+      "heading": "The Future of Food",
+      "text": [
+        "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta."
+      ],
+      "author": "By Admin",
+      "date": "Aug 28|2023",
+      "href": "#"
+    },
+    {
+      "id": "f074e95e-edba-4403-8456-b84ed680d51f",
+      "image": "url(\"../../images/img-8.jpg\")",
+      "heading": "The Future of Food",
+      "text": [
+        "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta."
+      ],
+      "author": "By Admin",
+      "date": "Aug 28|2023",
+      "href": "#"
+    }
+  ],
+  "ContactData": [
+    {
+      "id": "c8a6732d-508b-4909-8d9b-70f5b85cd277",
+      "icon": {
+        "type": {
+          "propTypes": {},
+          "defaultProps": {
+            "border": false,
+            "className": "",
+            "mask": null,
+            "maskId": null,
+            "fixedWidth": false,
+            "inverse": false,
+            "flip": false,
+            "icon": null,
+            "listItem": false,
+            "pull": null,
+            "pulse": false,
+            "rotation": null,
+            "size": null,
+            "spin": false,
+            "spinPulse": false,
+            "spinReverse": false,
+            "beat": false,
+            "fade": false,
+            "beatFade": false,
+            "bounce": false,
+            "shake": false,
+            "symbol": false,
+            "title": "",
+            "titleId": null,
+            "transform": null,
+            "swapOpacity": false
+          }
+        },
+        "key": null,
+        "ref": null,
+        "props": {
+          "icon": {
+            "prefix": "far",
+            "iconName": "envelope",
+            "icon": [
+              512,
+              512,
+              [128386, 9993, 61443],
+              "f0e0",
+              "M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"
+            ]
+          },
+          "border": false,
+          "className": "",
+          "mask": null,
+          "maskId": null,
+          "fixedWidth": false,
+          "inverse": false,
+          "flip": false,
+          "listItem": false,
+          "pull": null,
+          "pulse": false,
+          "rotation": null,
+          "size": null,
+          "spin": false,
+          "spinPulse": false,
+          "spinReverse": false,
+          "beat": false,
+          "fade": false,
+          "beatFade": false,
+          "bounce": false,
+          "shake": false,
+          "symbol": false,
+          "title": "",
+          "titleId": null,
+          "transform": null,
+          "swapOpacity": false
+        },
+        "_owner": null,
+        "_store": {}
+      },
+      "heading": "@ Address",
+      "linkText": "peach@gmail.com",
+      "href": "#"
+    },
+    {
+      "id": "b2d55774-1942-4279-85d2-dd6279afbc1a",
+      "icon": {
+        "type": {
+          "propTypes": {},
+          "defaultProps": {
+            "border": false,
+            "className": "",
+            "mask": null,
+            "maskId": null,
+            "fixedWidth": false,
+            "inverse": false,
+            "flip": false,
+            "icon": null,
+            "listItem": false,
+            "pull": null,
+            "pulse": false,
+            "rotation": null,
+            "size": null,
+            "spin": false,
+            "spinPulse": false,
+            "spinReverse": false,
+            "beat": false,
+            "fade": false,
+            "beatFade": false,
+            "bounce": false,
+            "shake": false,
+            "symbol": false,
+            "title": "",
+            "titleId": null,
+            "transform": null,
+            "swapOpacity": false
+          }
+        },
+        "key": null,
+        "ref": null,
+        "props": {
+          "icon": {
+            "prefix": "fas",
+            "iconName": "house",
+            "icon": [
+              576,
+              512,
+              [127968, 63498, 63500, "home", "home-alt", "home-lg-alt"],
+              "f015",
+              "M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"
+            ]
+          },
+          "border": false,
+          "className": "",
+          "mask": null,
+          "maskId": null,
+          "fixedWidth": false,
+          "inverse": false,
+          "flip": false,
+          "listItem": false,
+          "pull": null,
+          "pulse": false,
+          "rotation": null,
+          "size": null,
+          "spin": false,
+          "spinPulse": false,
+          "spinReverse": false,
+          "beat": false,
+          "fade": false,
+          "beatFade": false,
+          "bounce": false,
+          "shake": false,
+          "symbol": false,
+          "title": "",
+          "titleId": null,
+          "transform": null,
+          "swapOpacity": false
+        },
+        "_owner": null,
+        "_store": {}
+      },
+      "heading": "Our Address",
+      "linkText": "PO Box 10003 Ney York. NY 54 2nd Avenue",
+      "href": "#"
+    },
+    {
+      "id": "1c15859e-8acb-4be2-b5ec-b4d8c97294bf",
+      "icon": {
+        "type": {
+          "propTypes": {},
+          "defaultProps": {
+            "border": false,
+            "className": "",
+            "mask": null,
+            "maskId": null,
+            "fixedWidth": false,
+            "inverse": false,
+            "flip": false,
+            "icon": null,
+            "listItem": false,
+            "pull": null,
+            "pulse": false,
+            "rotation": null,
+            "size": null,
+            "spin": false,
+            "spinPulse": false,
+            "spinReverse": false,
+            "beat": false,
+            "fade": false,
+            "beatFade": false,
+            "bounce": false,
+            "shake": false,
+            "symbol": false,
+            "title": "",
+            "titleId": null,
+            "transform": null,
+            "swapOpacity": false
+          }
+        },
+        "key": null,
+        "ref": null,
+        "props": {
+          "icon": {
+            "prefix": "fas",
+            "iconName": "phone",
+            "icon": [
+              512,
+              512,
+              [128222, 128379],
+              "f095",
+              "M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+            ]
+          },
+          "border": false,
+          "className": "",
+          "mask": null,
+          "maskId": null,
+          "fixedWidth": false,
+          "inverse": false,
+          "flip": false,
+          "listItem": false,
+          "pull": null,
+          "pulse": false,
+          "rotation": null,
+          "size": null,
+          "spin": false,
+          "spinPulse": false,
+          "spinReverse": false,
+          "beat": false,
+          "fade": false,
+          "beatFade": false,
+          "bounce": false,
+          "shake": false,
+          "symbol": false,
+          "title": "",
+          "titleId": null,
+          "transform": null,
+          "swapOpacity": false
+        },
+        "_owner": null,
+        "_store": {}
+      },
+      "heading": "Our Address",
+      "linkText": "(646) 707-0086",
+      "href": "#"
+    }
+  ]
+}

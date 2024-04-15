@@ -1,5 +1,4 @@
 @import "../../shared/variables.scss";
-@import "../../shared/mixins.scss";
 
 .teamSection {
   padding: $section-padding-lg;
@@ -10,7 +9,7 @@
 }
 
 .teamItem {
-  padding: 0 10px;
+  padding: 0 30px;
   text-align: justify;
   display: flex;
   flex-direction: column;
@@ -18,7 +17,7 @@
 
 .teamDescription {
   position: relative;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
   margin-bottom: 15px;
   flex: 1;
 
@@ -66,23 +65,4 @@
   color: $btn-background;
   text-align: center;
   margin-bottom: 15px;
-}
-
-.teamSocialList {
-  display: flex;
-  justify-content: center;
-}
-
-.teamSocialItem {
-  padding: 0 10px;
-}
-
-.teamSocialLink {
-  transition: $base-transition;
-  color: $base-text-color;
-  font-size: $font-size-base;
-
-  &:hover {
-    opacity: 0.6;
-  }
 }

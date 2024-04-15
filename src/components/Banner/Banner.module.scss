@@ -1,12 +1,12 @@
 @import "../../shared/variables.scss";
 @import "../../shared/mixins.scss";
 
-.bannerSection {
+.bannerSlide {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   height: 100vh;
-  background-image: url(../../images/baner.jpg);
+  // background-image: url(../../images/baner.jpg);
   background-size: cover;
   color: $white;
 

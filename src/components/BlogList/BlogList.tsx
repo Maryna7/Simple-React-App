@@ -1,184 +1,39 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import styles from "./BlogList.module.scss";
 import { Link } from "../Link/Link";
-import { Icons } from "../Icons/Icons";
+import { Title } from "../Title/Title";
+import { ColumnsText } from "../Columns/ColumnsText";
+import { ColumnsTitle } from "../Columns/ColumnsTitle";
+import { BlogFooter } from "./BlogFooter";
+import { BlogImage } from "./BlogImage";
+import { BlogItem } from "../../types/BlogData";
+import styles from "./BlogList.module.scss";
 
-const BlogList: React.FC = () => {
+type BlogDataProp = {
+  data: BlogItem[];
+};
+
+const BlogList = ({ data }: BlogDataProp) => {
   return (
     <section className={styles.blogSection}>
-      <h2 className="h2">
-        <span>LATEST BLOGS</span>
-      </h2>
+      <Title>LATEST BLOGS</Title>
       <ul className={styles.blogList}>
-        <li className={styles.blogItem}>
-          <Link className={styles.blogLink} href="#">
-            <div className={styles.blogImgWrap}>
-              {/* <img src="../../images/img-1.jpg" alt="the future of food" /> */}
-            </div>
-            <div className={styles.blogTextWrap}>
-              <div className={styles.blogTextHeader}>
-                <h3 className="h3">
-                  <span>The Future of Food</span>
-                </h3>
-                <div className={styles.blogTextComments}>
-                  {Icons.comments}
-                  <span className={styles.numberOfComments}>15</span>
+        {data.map((item) => (
+          <li className={styles.blogItem} key={item.id}>
+            <Link className={styles.blogLink} href={item.href}>
+              <BlogImage image={item.image} />
+              <div className={styles.blogTextWrap}>
+                <div className={styles.blogTextHeader}>
+                  <ColumnsTitle>{item.heading}</ColumnsTitle>
                 </div>
+                <ColumnsText paragraphs={item.text} />
+                <BlogFooter author={item.author} date={item.date} />
               </div>
-              <p>
-                Regendos maiestatis no ius, in velidusae arie tibique percipit,
-                saperet labores si fotalo see Cu facete causae eleifend eam, ni
-                percipit in graeci noster. Id pro insolens aliqu qui dolor qui
-                dolor diceret ex, id sed suas in eleifend intellegat. No vix
-                suas soluta.
-              </p>
-              <p>
-                Regendos maiestatis no ius, in velidusae arie tibique percipit,
-                saperet labores si fotalo see Cu facete causae eleifend eam, ni
-                percipit in graeci noster. Id pro insolens aliqu qui dolor qui
-                dolor diceret ex, id sed suas in eleifend intellegat. No vix
-                suas soluta.
-              </p>
-              <div className={styles.blogTextFooter}>
-                <div className={styles.blogAuthorWrap}>
-                  {Icons.penToSquare}
-                  <span className={styles.authorName}>by Admin</span>
-                </div>
-                <div className={styles.blogDateWrap}>
-                  {Icons.clock}
-                  <span className={styles.blogDate}>Aug 28|2023</span>
-                </div>
+              <div className={styles.hoverBtn}>
+                <span>read more</span>
               </div>
-            </div>
-          </Link>
-        </li>
-        <li className={styles.blogItem}>
-          <Link className={styles.blogLink} href="#">
-            <div className={styles.blogImgWrap}>
-              {/* <img src="../../images/img-1.jpg" alt="the future of food" /> */}
-            </div>
-            <div className={styles.blogTextWrap}>
-              <div className={styles.blogTextHeader}>
-                <h3 className="h3">
-                  <span>The Future of Food</span>
-                </h3>
-                <div className={styles.blogTextComments}>
-                  {Icons.comments}
-                  <span className={styles.numberOfComments}>15</span>
-                </div>
-              </div>
-              <p>
-                Regendos maiestatis no ius, in velidusae arie tibique percipit,
-                saperet labores si fotalo see Cu facete causae eleifend eam, ni
-                percipit in graeci noster. Id pro insolens aliqu qui dolor qui
-                dolor diceret ex, id sed suas in eleifend intellegat. No vix
-                suas soluta.
-              </p>
-              <p>
-                Regendos maiestatis no ius, in velidusae arie tibique percipit,
-                saperet labores si fotalo see Cu facete causae eleifend eam, ni
-                percipit in graeci noster. Id pro insolens aliqu qui dolor qui
-                dolor diceret ex, id sed suas in eleifend intellegat. No vix
-                suas soluta.
-              </p>
-              <div className={styles.blogTextFooter}>
-                <div className={styles.blogAuthorWrap}>
-                  {Icons.penToSquare}
-                  <span className={styles.authorName}>by Admin</span>
-                </div>
-                <div className={styles.blogDateWrap}>
-                  {Icons.clock}
-                  <span className={styles.blogDate}>Aug 28|2023</span>
-                </div>
-              </div>
-            </div>
-          </Link>
-        </li>
-        <li className={styles.blogItem}>
-          <Link className={styles.blogLink} href="#">
-            <div className={styles.blogImgWrap}>
-              {/* <img src="../../images/img-1.jpg" alt="the future of food" /> */}
-            </div>
-            <div className={styles.blogTextWrap}>
-              <div className={styles.blogTextHeader}>
-                <h3 className="h3">
-                  <span>The Future of Food</span>
-                </h3>
-                <div className={styles.blogTextComments}>
-                  {Icons.comments}
-                  <span className={styles.numberOfComments}>15</span>
-                </div>
-              </div>
-              <p>
-                Regendos maiestatis no ius, in velidusae arie tibique percipit,
-                saperet labores si fotalo see Cu facete causae eleifend eam, ni
-                percipit in graeci noster. Id pro insolens aliqu qui dolor qui
-                dolor diceret ex, id sed suas in eleifend intellegat. No vix
-                suas soluta.
-              </p>
-              <p>
-                Regendos maiestatis no ius, in velidusae arie tibique percipit,
-                saperet labores si fotalo see Cu facete causae eleifend eam, ni
-                percipit in graeci noster. Id pro insolens aliqu qui dolor qui
-                dolor diceret ex, id sed suas in eleifend intellegat. No vix
-                suas soluta.
-              </p>
-              <div className={styles.blogTextFooter}>
-                <div className={styles.blogAuthorWrap}>
-                  {Icons.penToSquare}
-                  <span className={styles.authorName}>by Admin</span>
-                </div>
-                <div className={styles.blogDateWrap}>
-                  {Icons.clock}
-                  <span className={styles.blogDate}>Aug 28|2023</span>
-                </div>
-              </div>
-            </div>
-          </Link>
-        </li>
-        <li className={styles.blogItem}>
-          <Link className={styles.blogLink} href="#">
-            <div className={styles.blogImgWrap}>
-              {/* <img src="../../images/img-1.jpg" alt="the future of food" /> */}
-            </div>
-            <div className={styles.blogTextWrap}>
-              <div className={styles.blogTextHeader}>
-                <h3 className="h3">
-                  <span>The Future of Food</span>
-                </h3>
-                <div className={styles.blogTextComments}>
-                  {Icons.comments}
-                  <span className={styles.numberOfComments}>15</span>
-                </div>
-              </div>
-              <p>
-                Regendos maiestatis no ius, in velidusae arie tibique percipit,
-                saperet labores si fotalo see Cu facete causae eleifend eam, ni
-                percipit in graeci noster. Id pro insolens aliqu qui dolor qui
-                dolor diceret ex, id sed suas in eleifend intellegat. No vix
-                suas soluta.
-              </p>
-              <p>
-                Regendos maiestatis no ius, in velidusae arie tibique percipit,
-                saperet labores si fotalo see Cu facete causae eleifend eam, ni
-                percipit in graeci noster. Id pro insolens aliqu qui dolor qui
-                dolor diceret ex, id sed suas in eleifend intellegat. No vix
-                suas soluta.
-              </p>
-              <div className={styles.blogTextFooter}>
-                <div className={styles.blogAuthorWrap}>
-                  {Icons.penToSquare}
-                  <span className={styles.authorName}>by Admin</span>
-                </div>
-                <div className={styles.blogDateWrap}>
-                  {Icons.clock}
-                  <span className={styles.blogDate}>Aug 28|2023</span>
-                </div>
-              </div>
-            </div>
-          </Link>
-        </li>
+            </Link>
+          </li>
+        ))}
       </ul>
     </section>
   );

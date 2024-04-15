@@ -1,6 +1,7 @@
 @import "../../shared/variables.scss";
 
-.servicesSection {
+.footer {
   padding: $section-padding-lg;
-  overflow: hidden;
+  background-color: $base-link-color;
+  color: #9ba3aa;
 }

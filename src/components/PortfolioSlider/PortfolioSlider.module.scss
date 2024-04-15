@@ -1,5 +1,4 @@
 @import "../../shared/variables.scss";
-@import "../../shared/mixins.scss";
 
 .portfolioSection {
   padding: $section-padding-lg;
@@ -65,6 +64,7 @@
   flex-wrap: wrap;
   flex: 33.33%;
   width: 33.33%;
+  align-content: start;
 
   &:nth-child(even) {
     .portfolioLink {

@@ -1,6 +1,11 @@
 @import "../../shared/variables.scss";
 
-.servicesSection {
+.aboutSection {
   padding: $section-padding-lg;
   overflow: hidden;
+
+  .headingsNumber {
+    margin-right: 8px;
+    color: $btn-background;
+  }
 }

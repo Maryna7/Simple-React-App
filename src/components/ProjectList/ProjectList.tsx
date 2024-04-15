@@ -1,93 +1,22 @@
-/* eslint-disable jsx-a11y/anchor-has-content */
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import styles from "./ProjectList.module.scss";
 import { Link } from "../Link/Link";
+import { Title } from "../Title/Title";
+import { SortProjectItem, Project } from "../../types/ProjectsData";
+import styles from "./ProjectList.module.scss";
 
-const ProjectList = () => {
-  const sortProjectListData = [
-    {
-      href: "#",
-      linkText: "all",
-    },
-    {
-      href: "#",
-      linkText: "branding",
-    },
-    {
-      href: "#",
-      linkText: "web",
-    },
-    {
-      href: "#",
-      linkText: "package",
-    },
-    {
-      href: "#",
-      linkText: "video",
-    },
-  ];
+type ProjectsDataProp = {
+  sortData: SortProjectItem[];
+  data: Project[];
+};
 
-  const projectListData = [
-    {
-      href: "#",
-      imageUrl: "../../images/img-1.jpg",
-      alt: "project 1",
-      hoverText: "nice poster",
-    },
-    {
-      href: "#",
-      imageUrl: "../../images/img-2.jpg",
-      alt: "project 2",
-      hoverText: "nice poster",
-    },
-    {
-      href: "#",
-      imageUrl: "../../images/img-3.jpg",
-      alt: "project 3",
-      hoverText: "nice poster",
-    },
-    {
-      href: "#",
-      imageUrl: "../../images/img-4.jpg",
-      alt: "project 4",
-      hoverText: "nice poster",
-    },
-    {
-      href: "#",
-      imageUrl: "../../images/img-5.jpg",
-      alt: "project 5",
-      hoverText: "nice poster",
-    },
-    {
-      href: "#",
-      imageUrl: "../../images/img-6.jpg",
-      alt: "project 6",
-      hoverText: "nice poster",
-    },
-    {
-      href: "#",
-      imageUrl: "../../images/img-7.jpg",
-      alt: "project 7",
-      hoverText: "nice poster",
-    },
-    {
-      href: "#",
-      imageUrl: "../../images/img-8.jpg",
-      alt: "project 8",
-      hoverText: "nice poster",
-    },
-  ];
-
+const ProjectList = ({ sortData, data }: ProjectsDataProp) => {
   return (
     <section className={styles.projectSection}>
-      <h2 className="h2">
-        <span>Latest Projects</span>
-      </h2>
+      <Title>Latest Projects</Title>
 
       <ul className={styles.sortProjectList}>
-        {sortProjectListData.map((item) => (
-          <li className={styles.sortProjectItem}>
+        {sortData.map((item) => (
+          <li className={styles.sortProjectItem} key={item.id}>
             <Link className={styles.sortProjectLink} href={item.href}>
               {item.linkText}
             </Link>
@@ -96,8 +25,8 @@ const ProjectList = () => {
       </ul>
 
       <ul className={styles.projectList}>
-        {projectListData.map((item) => (
-          <li className={styles.projectItem}>
+        {data.map((item) => (
+          <li className={styles.projectItem} key={item.id}>
             <Link className={styles.projectLink} href={item.href}>
               <img src={item.imageUrl} alt={item.alt} />
               <span className={styles.hoverText}>{item.hoverText}</span>

@@ -1,23 +1,33 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import styles from "./Banner.module.scss";
 import { Link } from "../Link/Link";
+import { BannerSlide } from "../../types/BannerData";
+import styles from "./Banner.module.scss";
 
-const Banner: React.FC = () => {
+type BanerDataProp = {
+  data: BannerSlide[];
+};
+
+const Banner = ({ data }: BanerDataProp) => {
   return (
     <section className={styles.bannerSection}>
-      <div className={styles.container}>
-        <div className={styles.textWrap}>
-          <p className={styles.bannerText}>Website Redesign </p>
-          <p className={styles.bannerText}>
-            From minor repairs to complete renovation sites transfer from any
-            platform by WordPress.
-          </p>
+      {data.map((item) => (
+        <div
+          key={item.id}
+          className={styles.bannerSlide}
+          style={{ backgroundImage: item.image }}
+        >
+          <div className={styles.container}>
+            <div className={styles.textWrap}>
+              {item.text.map((paragraph) => (
+                <p className={styles.bannerText}>{paragraph}</p>
+              ))}
+            </div>
+            <Link href={item.linkUrl} className={styles.bannerButton}>
+              {item.linkText}
+            </Link>
+          </div>
         </div>
-        <Link href="#" className={styles.bannerButton}>
-          Learn more
-        </Link>
-      </div>
+      ))}
     </section>
   );
 };

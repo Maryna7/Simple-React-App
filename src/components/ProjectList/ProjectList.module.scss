@@ -1,5 +1,4 @@
 @import "../../shared/variables.scss";
-@import "../../shared/mixins.scss";
 
 .projectSection {
   padding: $section-padding-lg;
@@ -45,6 +44,7 @@
 .projectLink {
   position: relative;
   display: inline-block;
+  width: 100%;
 
   &:hover {
     .hoverText {

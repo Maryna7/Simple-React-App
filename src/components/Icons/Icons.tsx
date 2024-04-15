@@ -8,6 +8,8 @@ import {
   faChevronLeft,
   faChevronRight,
   faPenToSquare,
+  faHouse,
+  faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 
 import {
@@ -15,6 +17,7 @@ import {
   faSquareCheck,
   faClock,
   faComments,
+  faEnvelope,
 } from "@fortawesome/free-regular-svg-icons";
 
 import {
@@ -44,6 +47,9 @@ const Icons = {
   penToSquare: <FontAwesomeIcon icon={faPenToSquare} />,
   clock: <FontAwesomeIcon icon={faClock} />,
   comments: <FontAwesomeIcon icon={faComments} />,
+  envelope: <FontAwesomeIcon icon={faEnvelope} />,
+  home: <FontAwesomeIcon icon={faHouse} />,
+  phone: <FontAwesomeIcon icon={faPhone} />,
 };
 
 export { Icons };
