@@ -7,9 +7,9 @@ const Maps = () => {
   return (
     <APIProvider apiKey={API_KEY}>
       <Map
-        style={{ width: "100vw", height: "100vh" }}
-        defaultCenter={{ lat: 22.54992, lng: 0 }}
-        defaultZoom={3}
+        style={{ width: "100vw", height: "400px" }}
+        defaultCenter={{ lat: 40.7210144, lng: -74.0029993 }}
+        defaultZoom={13}
         gestureHandling={"greedy"}
         disableDefaultUI={true}
       />

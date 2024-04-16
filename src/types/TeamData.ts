@@ -18,6 +18,6 @@ export type TeamMember = {
   imageAlt: string;
   heading: string;
   jobTitle: string;
-  text: string[];
+  text: string;
   media?: Media[];
 };

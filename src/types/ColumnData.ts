@@ -1,7 +1,7 @@
 export enum ColumnIcons {
-  iconWrench = "iconWrench",
-  iconCamera = "iconCamera",
-  iconLaptop = "iconLaptop",
+  IconWrench = "iconWrench",
+  IconCamera = "iconCamera",
+  IconLaptop = "iconLaptop",
   IconBullhorn = "iconBullhorn",
   IconLightbulb = "iconLightbulb",
   IconSquareCheck = "iconSquareCheck",

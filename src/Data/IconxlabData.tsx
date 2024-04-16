@@ -78,10 +78,8 @@ const BannerData = [
   {
     id: uuidv4(),
     image: 'url("../../images/baner.jpg")',
-    text: [
-      "Website Redesign",
-      "From minor repairs to complete renovation sites transfer from any platform by WordPress.",
-    ],
+    text: "Website Redesign",
+
     linkUrl: "#",
     linkText: "Learn more",
   },
@@ -92,26 +90,19 @@ const ServiceData = [
     id: uuidv4(),
     icon: Icons.iconWrench,
     heading: "Web Design & Development",
-    text: [
-      "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
-    ],
+    text: "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
   },
   {
     id: uuidv4(),
     icon: Icons.iconCamera,
     heading: "Copywriting & Publishing",
-    text: [
-      "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
-      "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
-    ],
+    text: "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
   },
   {
     id: uuidv4(),
     icon: Icons.iconLaptop,
     heading: "Digital & Offset Printing",
-    text: [
-      "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
-    ],
+    text: "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
   },
 ];
 
@@ -208,27 +199,21 @@ const AboutSectionData = [
     icon: Icons.iconBullhorn,
     headingsNumber: "89%",
     heading: "Double the traffic",
-    text: [
-      "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
-    ],
+    text: "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
   },
   {
     id: uuidv4(),
     icon: Icons.iconLightbulb,
     headingsNumber: "75%",
     heading: "Better Ideas",
-    text: [
-      "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
-    ],
+    text: "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
   },
   {
     id: uuidv4(),
     icon: Icons.iconSquareCheck,
     headingsNumber: "100%",
     heading: "Digital & Offset Printing",
-    text: [
-      "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
-    ],
+    text: "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
   },
 ];
 
@@ -239,9 +224,8 @@ const TeamSectionData: TeamMember[] = [
     imageAlt: "pictures of our staff",
     heading: "Lorem Ipsum Dolor",
     jobTitle: "Logistics",
-    text: [
-      "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
-    ],
+    text: "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
+
     media: [
       {
         id: uuidv4(),
@@ -281,9 +265,8 @@ const TeamSectionData: TeamMember[] = [
     imageAlt: "pictures of our staff",
     heading: "Lorem Ipsum Dolor",
     jobTitle: "Support Guru",
-    text: [
-      "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
-    ],
+    text: "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
+
     // media: [
     //   {
     //     id: uuidv4(),
@@ -323,10 +306,8 @@ const TeamSectionData: TeamMember[] = [
     imageAlt: "pictures of our staff",
     heading: "Lorem Ipsum Dolor",
     jobTitle: "Logistics",
-    text: [
-      "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
-      "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
-    ],
+    text: "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
+
     // media: [
     //   {
     //     id: uuidv4(),
@@ -425,10 +406,8 @@ const BlogListData = [
     id: uuidv4(),
     image: 'url("../../images/img-1.jpg")',
     heading: "The Future of Food",
-    text: [
-      "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
-      "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
-    ],
+    text: "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
+
     author: "By Admin",
     date: "Aug 28|2023",
     href: "#",
@@ -437,9 +416,8 @@ const BlogListData = [
     id: uuidv4(),
     image: 'url("../../images/img-3.jpg")',
     heading: "The Future of Food",
-    text: [
-      "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
-    ],
+    text: "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
+
     author: "By Admin",
     date: "Aug 28|2023",
     href: "#",
@@ -448,9 +426,8 @@ const BlogListData = [
     id: uuidv4(),
     image: 'url("../../images/img-6.jpg")',
     heading: "The Future of Food",
-    text: [
-      "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
-    ],
+    text: "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
+
     author: "By Admin",
     date: "Aug 28|2023",
     href: "#",
@@ -459,9 +436,8 @@ const BlogListData = [
     id: uuidv4(),
     image: 'url("../../images/img-8.jpg")',
     heading: "The Future of Food",
-    text: [
-      "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
-    ],
+    text: "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
+
     author: "By Admin",
     date: "Aug 28|2023",
     href: "#",

@@ -3,6 +3,7 @@ import { ColumnsTitle } from "../Columns/ColumnsTitle";
 import { ColumnsText } from "../Columns/ColumnsText";
 import { Title } from "../Title/Title";
 import { SocialMediaList } from "../SocialMediaList/SocialMediaList";
+import { TeamImage } from "./TeamImage";
 import { TeamMember } from "../../types/TeamData";
 import styles from "./TeamList.module.scss";
 
@@ -19,16 +20,10 @@ const TeamList = ({ data }: TeamDataProp) => {
           {data.map((item) => (
             <li key={item.id} className={styles.teamItem}>
               <div className={styles.teamDescription}>
-                <div className={styles.imageHolder}>
-                  <img
-                    className={styles.teamImage}
-                    src={item.imageUrl}
-                    alt={item.imageAlt}
-                  />
-                </div>
+                <TeamImage imageUrl={item.imageUrl} imageAlt={item.imageAlt} />
                 <ColumnsTitle>{item.heading}</ColumnsTitle>
                 <div className={styles.jobTitle}>{item.jobTitle}</div>
-                <ColumnsText paragraphs={item.text} />
+                <ColumnsText>{item.text}</ColumnsText>
               </div>
               {item.media ? <SocialMediaList data={item.media} /> : ""}
             </li>

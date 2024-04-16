@@ -4,11 +4,11 @@ import { ColumnsTitle } from "../Columns/ColumnsTitle";
 import { ColumnsIcon } from "../Columns/ColumnsIcon";
 import { Link } from "../Link/Link";
 import { Maps } from "./Map";
-import { Column } from "../../types/ColumnData";
+import { Contact } from "../../types/ContactData";
 import styles from "./Contacts.module.scss";
 
 type ContactDataProp = {
-  data: Column[];
+  data: Contact[];
 };
 
 const Contacts = ({ data }: ContactDataProp) => {
@@ -22,7 +22,7 @@ const Contacts = ({ data }: ContactDataProp) => {
         <ul className={styles.contactList}>
           {data.map((item) => (
             <li className={styles.contactItem} key={item.id}>
-              <ColumnsIcon>{item.icon}</ColumnsIcon>
+              <ColumnsIcon icon={item.icon} />
               <ColumnsTitle>{item.heading}</ColumnsTitle>
               <Link className={styles.contactLink} href={item.href}>
                 {item.linkText}

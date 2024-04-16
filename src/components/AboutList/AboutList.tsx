@@ -1,11 +1,11 @@
 import React from "react";
 import { Title } from "../Title/Title";
 import { ColumnsList } from "../Columns/ColumnsList";
-import { Column } from "../../types/ColumnData";
+import { AboutColumn } from "../../types/AboutData";
 import styles from "./AboutList.module.scss";
 
 type AboutDataProp = {
-  data: Column[];
+  data: AboutColumn[];
 };
 
 const AboutList = ({ data }: AboutDataProp) => {
@@ -13,7 +13,7 @@ const AboutList = ({ data }: AboutDataProp) => {
     <section className={styles.aboutSection}>
       <div className="container">
         <Title>About</Title>
-        <ColumnsList data={data} line={false} />
+        <ColumnsList data={data} line={false} headingsNum={true} />
       </div>
     </section>
   );

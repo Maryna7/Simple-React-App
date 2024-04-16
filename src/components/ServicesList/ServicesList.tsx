@@ -1,11 +1,11 @@
 import React from "react";
 import { Title } from "../Title/Title";
 import { ColumnsList } from "../Columns/ColumnsList";
-import { Column } from "../../types/ColumnData";
+import { Service } from "../../types/ServicesData";
 import styles from "./ServicesList.module.scss";
 
 type ServicesDataProp = {
-  data: Column[];
+  data: Service[];
 };
 
 const ServicesList = ({ data }: ServicesDataProp) => {
@@ -13,7 +13,7 @@ const ServicesList = ({ data }: ServicesDataProp) => {
     <section className={styles.servicesSection}>
       <div className="container">
         <Title>SERVICES</Title>
-        <ColumnsList data={data} line={true} />
+        <ColumnsList data={data} line={true} headingsNum={false} />
       </div>
     </section>
   );

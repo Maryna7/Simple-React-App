@@ -1,7 +1,66 @@
 @import "../../shared/variables.scss";
 
 .footer {
-  padding: $section-padding-lg;
-  background-color: $base-link-color;
+  background-color: $base-text-color;
   color: #9ba3aa;
+}
+
+.contactFormWrap {
+  padding: 25px 0;
+  background-color: $form-element-border-color;
+  border-bottom: 1px solid #576e8a;
+}
+
+.contactForm {
+  display: flex;
+  justify-content: space-between;
+}
+.inputWrap,
+.submitWrap {
+  width: 25%;
+}
+
+.textareaWrap {
+  width: 49%;
+}
+
+.input,
+.textarea,
+.submitInput {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: $btn-padding;
+  border: 1px solid $form-element-border-color;
+}
+
+.input {
+  height: 40px;
+}
+
+.input,
+.textarea {
+  background-color: #3b5d86;
+  color: #c4c6c9;
+  font-style: italic;
+
+  &:focus-visible {
+    background-color: $white;
+    outline: none;
+    border-color: $form-element-focus-border-color;
+  }
+}
+
+.submitInput {
+  background-color: $btn-background;
+  color: $white;
+  transition: $base-transition;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.footerColumnsBlock {
+  border: 1px solid $form-element-border-color;
 }

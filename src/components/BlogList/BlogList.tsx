@@ -25,7 +25,7 @@ const BlogList = ({ data }: BlogDataProp) => {
                 <div className={styles.blogTextHeader}>
                   <ColumnsTitle>{item.heading}</ColumnsTitle>
                 </div>
-                <ColumnsText paragraphs={item.text} />
+                <ColumnsText>{item.text}</ColumnsText>
                 <BlogFooter author={item.author} date={item.date} />
               </div>
               <div className={styles.hoverBtn}>

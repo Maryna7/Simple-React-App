@@ -2,15 +2,13 @@ import React from "react";
 import styles from "./ColumnsList.module.scss";
 
 type TextProp = {
-  paragraphs: string[];
+  children: React.ReactNode;
 };
 
-const ColumnsText = ({ paragraphs }: TextProp) => {
+const ColumnsText = ({ children }: TextProp) => {
   return (
     <div className={styles.textHolder}>
-      {paragraphs.map((paragraph, index) => (
-        <p key={index}>{paragraph}</p>
-      ))}
+      <p>{children}</p>
     </div>
   );
 };
