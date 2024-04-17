@@ -1,0 +1,20 @@
+@import "../../shared/variables.scss";
+
+.teamSocialList {
+  display: flex;
+  justify-content: center;
+}
+
+.teamSocialItem {
+  padding: 0 10px;
+}
+
+.teamSocialLink {
+  transition: $base-transition;
+  color: $base-text-color;
+  font-size: $font-size-base;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}

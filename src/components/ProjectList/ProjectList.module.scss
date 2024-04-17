@@ -1,0 +1,71 @@
+@import "../../shared/variables.scss";
+
+.projectSection {
+  padding: $section-padding-lg;
+  padding-bottom: 0;
+  background-color: $second-background-color;
+}
+
+.sortProjectList {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.sortProjectItem {
+  padding: 0 10px;
+  border-right: 1px solid #b9c3cd;
+  line-height: 1.2;
+
+  &:last-child {
+    border-right: none;
+  }
+}
+
+.sortProjectLink {
+  color: $base-text-color;
+  transition: $base-transition;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+.projectList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projectItem {
+  width: 25%;
+  overflow: hidden;
+}
+
+.projectLink {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+
+  &:hover {
+    .hoverText {
+      bottom: 0;
+    }
+  }
+
+  img {
+    vertical-align: top;
+    width: 100%;
+  }
+}
+
+.hoverText {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -30%;
+  padding: 10px 15px;
+  transition: $base-transition;
+  color: $white;
+  background-color: $btn-background;
+  text-transform: capitalize;
+}

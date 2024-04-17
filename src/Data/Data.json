@@ -1,0 +1,434 @@
+{
+  "NavData": [
+    {
+      "href": "/home",
+      "text": "home",
+      "id": "d0818982-7cb2-46c3-a56f-3ab44761b87a"
+    },
+    {
+      "href": "/sliders",
+      "text": "sliders",
+      "id": "f5c397e6-420a-4dcd-9a19-85408879d7de",
+      "dropdown": [
+        {
+          "href": "#",
+          "text": "sliders 1",
+          "id": "9cde23de-bcd8-4447-9894-0a1e69833a77"
+        },
+        {
+          "href": "#",
+          "text": "sliders 2",
+          "id": "7836fab8-6d9d-4a53-a6a5-3d5ed1738d3c"
+        },
+        {
+          "href": "#",
+          "text": "sliders 3",
+          "id": "8ab76016-0e15-4664-bb2a-187c1cad4861"
+        }
+      ]
+    },
+    {
+      "href": "/pages",
+      "text": "pages",
+      "id": "8441c345-23dc-4eb8-968f-5cd063ce3766",
+      "dropdown": [
+        {
+          "href": "#",
+          "text": "page 1",
+          "id": "9dbc9fbe-9607-41f8-801e-c446e185616d"
+        },
+        {
+          "href": "#",
+          "text": "page 2",
+          "id": "bede9857-9d79-499c-b79d-504b02a9b043"
+        },
+        {
+          "href": "#",
+          "text": "page 3",
+          "id": "30ee7010-4955-4e00-ac0a-2634b9b18df5"
+        }
+      ]
+    },
+    {
+      "href": "/portfolio",
+      "text": "portfolio",
+      "id": "1cc6c6dd-b605-4c3f-921e-322a64e8a69e"
+    },
+    {
+      "href": "/headers",
+      "text": "headers",
+      "id": "8527af3b-089d-45a7-8879-ae0647b5d891"
+    },
+    {
+      "href": "/blog",
+      "text": "blog",
+      "id": "ceb62b1c-2953-40ce-a154-665fceec5e5e"
+    },
+    {
+      "href": "/search",
+      "text": "search",
+      "id": "a6a3b27a-25d6-4e39-bba3-3e3f20725da2"
+    }
+  ],
+  "BannerData": [
+    {
+      "id": "96086a2c-124d-4925-b4d6-3090138eadfa",
+      "image": "url(\"../../images/baner.jpg\")",
+      "text": [
+        "Website Redesign",
+        "From minor repairs to complete renovation sites transfer from any platform by WordPress."
+      ],
+      "linkUrl": "#",
+      "linkText": "Learn more"
+    }
+  ],
+  "ServiceData": [
+    {
+      "id": "de8b9f69-9e66-4d2a-82c9-a79bcfdee446",
+      "icon": "iconWrench",
+      "heading": "Web Design & Development",
+      "text": "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta."
+    },
+    {
+      "id": "dcaa5a77-c16f-48d1-8111-9541b1b2da7e",
+      "icon": "iconCamera",
+      "heading": "Copywriting & Publishing",
+      "text": "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta."
+    },
+    {
+      "id": "ac15bf88-64f5-48e4-911e-5bc346ac4189",
+      "icon": "iconLaptop",
+      "heading": "Digital & Offset Printing",
+      "text": "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta."
+    }
+  ],
+  "SortProjectListData": [
+    {
+      "id": "895718f9-5bf0-4149-aa20-834c9317c39f",
+      "href": "#",
+      "linkText": "all"
+    },
+    {
+      "id": "1adbcdb4-f6d9-412d-9008-c4bafccc4921",
+      "href": "#",
+      "linkText": "branding"
+    },
+    {
+      "id": "55cee33b-8b8d-4484-85ff-2ca618894cf0",
+      "href": "#",
+      "linkText": "web"
+    },
+    {
+      "id": "ce02660c-1527-45a5-acb5-a546e6543102",
+      "href": "#",
+      "linkText": "package"
+    },
+    {
+      "id": "fdaf4adb-449f-4860-b4d4-2d80372a5cb1",
+      "href": "#",
+      "linkText": "video"
+    }
+  ],
+  "ProjectListData": [
+    {
+      "id": "4230037e-af43-4a4d-a0df-8ebaa893872b",
+      "href": "#",
+      "imageUrl": "../../images/img-1.jpg",
+      "alt": "project 1",
+      "hoverText": "nice poster"
+    },
+    {
+      "id": "ebeb25f7-c051-416e-a0e6-d5b6c3fc86a3",
+      "href": "#",
+      "imageUrl": "../../images/img-2.jpg",
+      "alt": "project 2",
+      "hoverText": "nice poster"
+    },
+    {
+      "id": "6a8acaf1-0648-4f84-9b3a-2074566cb5cc",
+      "href": "#",
+      "imageUrl": "../../images/img-3.jpg",
+      "alt": "project 3",
+      "hoverText": "nice poster"
+    },
+    {
+      "id": "aa535745-f961-4130-bcd9-e78fe5edc109",
+      "href": "#",
+      "imageUrl": "../../images/img-4.jpg",
+      "alt": "project 4",
+      "hoverText": "nice poster"
+    },
+    {
+      "id": "32281c0f-56a6-4e10-a0c3-a170c4c9291b",
+      "href": "#",
+      "imageUrl": "../../images/img-5.jpg",
+      "alt": "project 5",
+      "hoverText": "nice poster"
+    },
+    {
+      "id": "0e8e80b0-9e34-48e1-8e09-262d2901e797",
+      "href": "#",
+      "imageUrl": "../../images/img-6.jpg",
+      "alt": "project 6",
+      "hoverText": "nice poster"
+    },
+    {
+      "id": "97a5e9d2-163f-4c30-8bb6-b53cabf04b7c",
+      "href": "#",
+      "imageUrl": "../../images/img-7.jpg",
+      "alt": "project 7",
+      "hoverText": "nice poster"
+    },
+    {
+      "id": "433aff58-4379-42f6-8948-e3cdc6289648",
+      "href": "#",
+      "imageUrl": "../../images/img-8.jpg",
+      "alt": "project 8",
+      "hoverText": "nice poster"
+    }
+  ],
+  "AboutSectionData": [
+    {
+      "id": "d3a8aceb-6918-459d-acb0-5a898b57878b",
+      "icon": "iconBullhorn",
+      "headingsNumber": "89%",
+      "heading": "Double the traffic",
+      "text": "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta."
+    },
+    {
+      "id": "66c76047-19c5-42e8-8d94-e2511440548c",
+      "icon": "iconLightbulb",
+      "headingsNumber": "75%",
+      "heading": "Better Ideas",
+      "text": "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta."
+    },
+    {
+      "id": "064e3b5b-8a4f-4761-8cd6-4fa29401cd71",
+      "icon": "iconSquareCheck",
+      "headingsNumber": "100%",
+      "heading": "Digital & Offset Printing",
+      "text": "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta."
+    }
+  ],
+  "TeamSectionData": [
+    {
+      "id": "a495eb06-9b22-4e1c-800e-48c78695adbe",
+      "imageUrl": "../../images/team-1.jpg",
+      "imageAlt": "pictures of our staff",
+      "heading": "Lorem Ipsum Dolor",
+      "jobTitle": "Logistics",
+      "text": "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
+      "media": [
+        {
+          "id": "387ae25c-2892-48be-86a1-f1f4bbd900f1",
+          "link": "#",
+          "icon": "twitter"
+        },
+        {
+          "id": "3bef0ab9-d365-44e3-a986-d28c762fc198",
+          "link": "#",
+          "icon": "facebook"
+        },
+        {
+          "id": "303b0f74-ae67-488b-89ed-ca221b97cfd7",
+          "link": "#",
+          "icon": "pinterest"
+        },
+        {
+          "id": "163f9b0e-4d36-43ad-9399-5a7895a221a9",
+          "link": "#",
+          "icon": "youtube"
+        },
+        {
+          "id": "90a2a249-9107-4caa-b190-10bd6218ab60",
+          "link": "#",
+          "icon": "linkedIn"
+        }
+      ]
+    },
+    {
+      "id": "e845b201-4197-425f-acd4-d978cc2379fc",
+      "imageUrl": "../../images/team-2.jpg",
+      "imageAlt": "pictures of our staff",
+      "heading": "Lorem Ipsum Dolor",
+      "jobTitle": "Support Guru",
+      "text": "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
+      "media": [
+        {
+          "id": "387ae25c-2892-48be-86a1-f1f4bbd900f1",
+          "link": "#",
+          "icon": "twitter"
+        },
+        {
+          "id": "3bef0ab9-d365-44e3-a986-d28c762fc198",
+          "link": "#",
+          "icon": "facebook"
+        },
+        {
+          "id": "303b0f74-ae67-488b-89ed-ca221b97cfd7",
+          "link": "#",
+          "icon": "pinterest"
+        },
+        {
+          "id": "163f9b0e-4d36-43ad-9399-5a7895a221a9",
+          "link": "#",
+          "icon": "youtube"
+        },
+        {
+          "id": "90a2a249-9107-4caa-b190-10bd6218ab60",
+          "link": "#",
+          "icon": "linkedIn"
+        }
+      ]
+    },
+    {
+      "id": "13f31a00-c05b-4f3b-b591-52231cd8380a",
+      "imageUrl": "../../images/team-3.jpg",
+      "imageAlt": "pictures of our staff",
+      "heading": "Lorem Ipsum Dolor",
+      "jobTitle": "Logistics",
+      "text": "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
+      "media": [
+        {
+          "id": "387ae25c-2892-48be-86a1-f1f4bbd900f1",
+          "link": "#",
+          "icon": "twitter"
+        },
+        {
+          "id": "3bef0ab9-d365-44e3-a986-d28c762fc198",
+          "link": "#",
+          "icon": "facebook"
+        },
+        {
+          "id": "303b0f74-ae67-488b-89ed-ca221b97cfd7",
+          "link": "#",
+          "icon": "pinterest"
+        },
+        {
+          "id": "163f9b0e-4d36-43ad-9399-5a7895a221a9",
+          "link": "#",
+          "icon": "youtube"
+        },
+        {
+          "id": "90a2a249-9107-4caa-b190-10bd6218ab60",
+          "link": "#",
+          "icon": "linkedIn"
+        }
+      ]
+    }
+  ],
+  "PortfolioData": [
+    {
+      "id": "5802c7b4-2bad-44c0-8817-ba845d2dd585",
+      "imgList": [
+        {
+          "imgUrl": "../../images/img-14.jpg",
+          "imgAlt": "plant in the office",
+          "href": "#"
+        },
+        {
+          "imgUrl": "../../images/img-15.jpg",
+          "imgAlt": "retro radio",
+          "href": "#"
+        },
+        {
+          "imgUrl": "../../images/img-16.jpg",
+          "imgAlt": "magazins",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "fe1e85d1-dbc9-461e-8602-1d865ac5a04d",
+      "imgList": [
+        {
+          "imgUrl": "../../images/img-13.jpg",
+          "imgAlt": "magazine of the company",
+          "href": "#"
+        }
+      ]
+    },
+    {
+      "id": "a93fad68-79a2-4596-b900-36cf1c1dec1d",
+      "imgList": [
+        { "imgUrl": "../../images/img-9.jpg", "imgAlt": "forest", "href": "#" },
+        {
+          "imgUrl": "../../images/img-10.jpg",
+          "imgAlt": "documents",
+          "href": "#"
+        },
+        {
+          "imgUrl": "../../images/img-11.jpg",
+          "imgAlt": "calendar cards",
+          "href": "#"
+        },
+        {
+          "imgUrl": "../../images/img-12.jpg",
+          "imgAlt": "retro camera",
+          "href": "#"
+        }
+      ]
+    }
+  ],
+  "BlogListData": [
+    {
+      "id": "30bd9070-3ff9-4cce-ad53-0acf432459b7",
+      "image": "url(\"../../images/img-1.jpg\")",
+      "heading": "The Future of Food",
+      "text": "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
+      "author": "By Admin",
+      "date": "Aug 28|2023",
+      "href": "#"
+    },
+    {
+      "id": "1d7b2b19-c570-4aa5-94f5-f4e1c7835135",
+      "image": "url(\"../../images/img-3.jpg\")",
+      "heading": "The Future of Food",
+      "text": "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
+      "author": "By Admin",
+      "date": "Aug 28|2023",
+      "href": "#"
+    },
+    {
+      "id": "c41ed60c-3f40-4df7-a05e-274fc6b48fb1",
+      "image": "url(\"../../images/img-6.jpg\")",
+      "heading": "The Future of Food",
+      "text": "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
+      "author": "By Admin",
+      "date": "Aug 28|2023",
+      "href": "#"
+    },
+    {
+      "id": "f074e95e-edba-4403-8456-b84ed680d51f",
+      "image": "url(\"../../images/img-8.jpg\")",
+      "heading": "The Future of Food",
+      "text": "Regendos maiestatis no ius, in veli tibique percipit, saperet labores si Cu facete causae eleifend eam, ni graeci noster. Id pro insolens aliqu qui dolor diceret ex, id sed suas in intellegat. No vix suas soluta.",
+      "author": "By Admin",
+      "date": "Aug 28|2023",
+      "href": "#"
+    }
+  ],
+  "ContactData": [
+    {
+      "id": "c8a6732d-508b-4909-8d9b-70f5b85cd277",
+      "icon": "envelope",
+      "heading": "@ Address",
+      "linkText": "peach@gmail.com",
+      "href": "#"
+    },
+    {
+      "id": "b2d55774-1942-4279-85d2-dd6279afbc1a",
+      "icon": "home",
+      "heading": "Our Address",
+      "linkText": "PO Box 10003 Ney York. NY 54 2nd Avenue",
+      "href": "#"
+    },
+    {
+      "id": "1c15859e-8acb-4be2-b5ec-b4d8c97294bf",
+      "icon": "phone",
+      "heading": "Our Address",
+      "linkText": "(646) 707-0086",
+      "href": "#"
+    }
+  ]
+}

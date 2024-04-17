@@ -1,0 +1,12 @@
+@import "../../shared/variables.scss";
+
+.aboutSection {
+  padding: $section-padding-lg;
+  overflow: hidden;
+
+  .headingsNumber {
+    display: inline;
+    margin-right: 8px;
+    color: $btn-background;
+  }
+}

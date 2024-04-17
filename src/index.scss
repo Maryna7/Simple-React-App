@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:wght@300&display=swap");
+@import "../node_modules/reset-css/sass/reset";
+@import "./shared/variables";
+@import "./shared/mixins";
+
+body {
+  color: $base-text-color;
+  background: $base-background-color;
+  font: #{$font-size-base}/#{$line-height-base} $base-font-family;
+  margin: 0;
+}
+
+.container {
+  @include container-styles;
+}
+
+.h1 {
+  font-size: $h1-font-size;
+}
+
+.h3 {
+  font-size: $h3-font-size;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.h4 {
+  font-size: $h4-font-size;
+}
+
+.h5 {
+  font-size: $h5-font-size;
+}
+
+.h6 {
+  font-size: $h6-font-size;
+}
+
+.button {
+  color: $btn-color;
+  text-transform: uppercase;
+}

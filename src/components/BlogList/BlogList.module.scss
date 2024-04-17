@@ -1,0 +1,128 @@
+@import "../../shared/variables.scss";
+
+.blogSection {
+  padding: $section-padding-lg;
+}
+
+.blogList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blogItem {
+  display: flex;
+  align-items: stretch;
+  width: 50%;
+
+  &:nth-child(-n + 2) {
+    .blogLink {
+      flex-direction: row-reverse;
+    }
+
+    .blogImgWrap {
+      border-width: 0 0 0 5px;
+    }
+  }
+}
+
+.blogLink {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  color: $base-text-color;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: $btn-background;
+    opacity: 0;
+    z-index: 2;
+  }
+
+  &:hover {
+    &:after {
+      opacity: 0.5;
+    }
+
+    .hoverBtn {
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      border: 1px solid $white;
+      z-index: 3;
+
+      span {
+        display: inline;
+      }
+    }
+  }
+}
+
+.hoverBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 45px;
+  height: 45px;
+  background-color: $btn-background;
+  border-radius: 50%;
+  text-transform: uppercase;
+  transition: $base-transition;
+  color: $white;
+  text-align: center;
+
+  span {
+    display: none;
+  }
+}
+
+.blogImgWrap {
+  width: 50%;
+  background-size: cover;
+  background-position: 50%;
+  border: solid $btn-background;
+  border-width: 0 5px 0 0;
+}
+
+.blogTextWrap {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  z-index: 1;
+  background-color: $white;
+
+  h3 {
+    text-align: left;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: -15px;
+      right: -15px;
+      height: 1px;
+      background: linear-gradient(
+        to right,
+        rgba(188, 188, 189, 0) 0%,
+        #bcbcbd 50%,
+        rgba(188, 188, 189, 0) 100%
+      );
+    }
+  }
+}
+
+.blogTextFooter {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 3;
+  align-items: flex-end;
+  margin: 10px 0;
+}
