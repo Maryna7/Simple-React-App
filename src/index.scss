@@ -26,6 +26,9 @@ body {
 
 .h4 {
   font-size: $h4-font-size;
+  text-transform: uppercase;
+  color: $light-gray;
+  margin-bottom: 0.5em;
 }
 
 .h5 {

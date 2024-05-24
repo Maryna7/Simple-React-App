@@ -1,8 +1,10 @@
 @import "../../shared/variables.scss";
+@import "../../shared/mixins.scss";
 
 .footer {
   background-color: $base-text-color;
-  color: #9ba3aa;
+  color: $dark-gray;
+  font-weight: 300;
 }
 
 .contactFormWrap {
@@ -62,5 +64,70 @@
 }
 
 .footerColumnsBlock {
-  border: 1px solid $form-element-border-color;
+  padding: $section-padding-lg;
+  border-bottom: 1px solid #576e8a;
+}
+
+.footerColumnsList {
+  display: flex;
+  max-width: 1090px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footerColumnItem {
+  width: 25%;
+  padding-right: 30px;
+
+  &:last-child {
+    padding-right: 0;
+  }
+}
+
+.postLink,
+.tweetLink {
+  @include link-reset;
+  color: $dark-gray;
+  transition: $base-transition;
+
+  &:hover {
+    color: $light-gray;
+  }
+}
+
+.postItem {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.tweetIcon {
+  color: $light-gray;
+  font-size: 22px;
+  margin-right: 15px;
+}
+
+.tweetAuthor {
+  color: $light-gray;
+}
+
+.searchForm {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.searchButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: none;
+  border: 0;
+  color: #355479;
+  font-size: 24px;
+}
+
+.bottomText {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 12px;
 }

@@ -2,12 +2,14 @@
 
 .articlesColumns {
   display: flex;
+  justify-content: space-between;
 }
 
 .article {
   width: 33.33%;
+  max-width: 300px;
   position: relative;
-  padding: 0 30px 20px;
+  padding: 0 10px 20px;
   text-align: justify;
 
   &::after {
@@ -70,5 +72,17 @@
       ),
       linear-gradient(to right top, #e4e5e7 6%, rgba(154, 189, 107, 0) 10%);
     background-size: 8px 8px;
+  }
+}
+
+@media (max-width: 767px) {
+  .articlesColumns {
+    flex-wrap: wrap;
+  }
+  .article {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 0 20px;
+    margin-bottom: 20px;
   }
 }

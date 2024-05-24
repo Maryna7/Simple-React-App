@@ -1,14 +1,16 @@
 //Colors
 $light-gray: #fafafa;
 $gray: #f0f2f3;
+$dark-gray: #9ba3aa;
 $dark-blue: #314f70;
 $white: #fff;
 $green: #39ca87;
 
-
 // Fonts
-$base-font-sans-serif: 'Raleway', 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
-$secondary-font-family: 'Lato', 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+$base-font-sans-serif: "Raleway", "Arial", "Helvetica Neue", "Helvetica",
+  sans-serif;
+$secondary-font-family: "Lato", "Arial", "Helvetica Neue", "Helvetica",
+  sans-serif;
 
 // Body
 $base-text-color: $dark-blue;
@@ -21,7 +23,7 @@ $base-font-family: $base-font-sans-serif;
 // Liks
 $base-link-color: $dark-blue;
 
-// Buttons 
+// Buttons
 $btn-color: $white;
 $btn-background: $green;
 $btn-padding: 0.4em 0.7em;
@@ -37,15 +39,15 @@ $placeholder-color: #c4c6c9;
 $h1-font-size: 32px;
 $h2-font-size: 30px;
 $h3-font-size: 26px;
-$h4-font-size: 24px;
-$h5-font-size: 13px;
-$h6-font-size: 12px;
+$h4-font-size: 13px;
+$h5-font-size: 12px;
+$h6-font-size: 11px;
 
 $headings-font-family: $secondary-font-family;
 $headings-color: $dark-blue;
 
 // Transition
-$base-transition: all .3s;
+$base-transition: all 0.3s;
 
 // Padding
 $section-padding-lg: 60px 0;

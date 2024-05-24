@@ -6,10 +6,12 @@
 
 .teamList {
   display: flex;
+  justify-content: space-between;
 }
 
 .teamItem {
-  padding: 0 30px;
+  padding: 0 10px;
+  max-width: 300px;
   text-align: justify;
   display: flex;
   flex-direction: column;
@@ -65,4 +67,41 @@
   color: $btn-background;
   text-align: center;
   margin-bottom: 15px;
+}
+
+.tabsContainer {
+  margin-bottom: -1px;
+  z-index: 1;
+}
+
+.tab {
+  font-weight: 100;
+  padding: 7px 20px;
+  color: $base-text-color;
+  border: none;
+  background: none;
+  transition: color 0.3s;
+
+  &:hover {
+    color: $btn-background;
+  }
+}
+
+.activeTab {
+  border: 1px solid $btn-background;
+  border-bottom: 1px solid $base-background-color;
+}
+
+@media (max-width: 768px) {
+  .teamList {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .teamItem {
+    max-width: 100%;
+    padding: 30px 10px 0;
+    text-align: center;
+    border-top: 1px solid $btn-background;
+  }
 }

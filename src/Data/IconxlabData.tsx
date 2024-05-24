@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
 import { Icons } from "../components/Icons/Icons";
-import { MediaIcons, TeamMember } from "../types/TeamData";
+import { MediaIcons } from "../types/TeamData";
 
 const NavData = [
   {
@@ -217,7 +217,7 @@ const AboutSectionData = [
   },
 ];
 
-const TeamSectionData: TeamMember[] = [
+const TeamSectionData = [
   {
     id: uuidv4(),
     imageUrl: "../../images/team-1.jpg",
@@ -468,6 +468,64 @@ const ContactData = [
   },
 ];
 
+const FooterInfoData = [
+  {
+    text: "Regendos maiestatis no ius, in velidusae arie tibique percipit, saperet labores si fotalo see Cu facete causae eleifend eam, ni percipit in graeci noster. Id pro insolens aliqu qui dolor qui dolor diceret ex, id sed suas in eleifend intellegat. No vix suas soluta.",
+  },
+];
+
+const FooterPostsData = [
+  {
+    id: uuidv4(),
+    time: "SEPTEMBER 5, 2013",
+    author: "by Admin",
+    text: "Class aptent taciti sociosqu ad litora... Class aptent taciti sociosqu ad litora torquent...",
+    href: "#",
+  },
+  {
+    id: uuidv4(),
+    time: "SEPTEMBER 5, 2013",
+    author: "by Admin",
+    text: "Class aptent taciti sociosqu ad litora... Class aptent taciti sociosqu ad litora torquent...",
+    href: "#",
+  },
+  {
+    id: uuidv4(),
+    time: "SEPTEMBER 5, 2013",
+    author: "by Admin",
+    text: "Class aptent taciti sociosqu ad litora... Class aptent taciti sociosqu ad litora torquent...",
+    href: "#",
+  },
+];
+const FooterTweetsData = [
+  {
+    id: uuidv4(),
+    author: "@einfal",
+    text: "@GoDaddy it also depends on issue, we would need you to post new topic with all details.",
+    time: "5 days ago",
+    href: "#",
+  },
+  {
+    id: uuidv4(),
+    author: "@einfal",
+    text: "@GoDaddy it also depends on issue, we would need you to post new topic with all details.",
+    time: "5 days ago",
+    href: "#",
+  },
+  {
+    id: uuidv4(),
+    author: "@einfal",
+    text: "@GoDaddy it also depends on issue, we would need you to post new topic with all details.",
+    time: "5 days ago",
+    href: "#",
+  },
+];
+const FooterTextData = [
+  {
+    text: "© 2013 Peach. All Rights Reserved",
+  },
+];
+
 export {
   NavData,
   BannerData,
@@ -479,4 +537,8 @@ export {
   PortfolioData,
   BlogListData,
   ContactData,
+  FooterInfoData,
+  FooterPostsData,
+  FooterTweetsData,
+  FooterTextData,
 };

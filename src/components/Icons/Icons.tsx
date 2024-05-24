@@ -10,6 +10,7 @@ import {
   faPenToSquare,
   faHouse,
   faPhone,
+  faMagnifyingGlass,
 } from "@fortawesome/free-solid-svg-icons";
 
 import {
@@ -50,6 +51,7 @@ const Icons = {
   envelope: <FontAwesomeIcon icon={faEnvelope} />,
   home: <FontAwesomeIcon icon={faHouse} />,
   phone: <FontAwesomeIcon icon={faPhone} />,
+  search: <FontAwesomeIcon icon={faMagnifyingGlass} />,
 };
 
 export { Icons };

@@ -1,15 +1,15 @@
 @import "../../shared/variables.scss";
 
-.teamSocialList {
+.socialList {
   display: flex;
   justify-content: center;
 }
 
-.teamSocialItem {
+.socialItem {
   padding: 0 10px;
 }
 
-.teamSocialLink {
+.socialLink {
   transition: $base-transition;
   color: $base-text-color;
   font-size: $font-size-base;

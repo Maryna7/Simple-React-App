@@ -80,6 +80,26 @@
       ],
       "linkUrl": "#",
       "linkText": "Learn more"
+    },
+    {
+      "id": "96086a2c-124d-4925-b4d6-3090138eadfb",
+      "image": "url(\"../../images/baner.jpg\")",
+      "text": [
+        "Website Redesign",
+        "From minor repairs to complete renovation sites transfer from any platform by WordPress."
+      ],
+      "linkUrl": "#",
+      "linkText": "Learn more"
+    },
+    {
+      "id": "96086a2c-124d-4925-b4d6-3090138eadfc",
+      "image": "url(\"../../images/baner.jpg\")",
+      "text": [
+        "Website Redesign",
+        "From minor repairs to complete renovation sites transfer from any platform by WordPress."
+      ],
+      "linkUrl": "#",
+      "linkText": "Learn more"
     }
   ],
   "ServiceData": [
@@ -430,5 +450,73 @@
       "linkText": "(646) 707-0086",
       "href": "#"
     }
-  ]
+  ],
+  "FooterInfoData": "Regendos maiestatis no ius, in velidusae arie tibique percipit, saperet labores si fotalo see Cu facete causae eleifend eam, ni percipit in graeci noster. Id pro insolens aliqu qui dolor qui dolor diceret ex, id sed suas in eleifend intellegat. No vix suas soluta.",
+  "FooterPostsData": [
+    {
+      "id": "66dbb77c-44d9-4fd6-ada9-bd1c1a06c726",
+      "time": "SEPTEMBER 5, 2013",
+      "author": "Admin",
+      "text": "Class aptent taciti sociosqu ad litora... Class aptent taciti sociosqu ad litora torquent...",
+      "href": "#"
+    },
+    {
+      "id": "66dbb77c-44d9-4fd6-ada9-bd1c1a06c726",
+      "time": "SEPTEMBER 5, 2013",
+      "author": "Admin",
+      "text": "Class aptent taciti sociosqu ad litora... Class aptent taciti sociosqu ad litora torquent...",
+      "href": "#"
+    },
+    {
+      "id": "66dbb77c-44d9-4fd6-ada9-bd1c1a06c726",
+      "time": "SEPTEMBER 5, 2013",
+      "author": "Admin",
+      "text": "Class aptent taciti sociosqu ad litora... Class aptent taciti sociosqu ad litora torquent...",
+      "href": "#"
+    }
+  ],
+  "FooterTweetsData": [
+    {
+      "id": "c6a379e6-e282-4da9-91a9-f041047ba50c",
+      "author": "@einfal",
+      "text": "@GoDaddy it also depends on issue, we would need you to post new topic with all details.",
+      "time": "5 days ago",
+      "href": "#"
+    },
+    {
+      "id": "dcdeb284-f558-43ce-b70a-4906ab05d580",
+      "author": "@einfal",
+      "text": "@GoDaddy it also depends on issue, we would need you to post new topic with all details.",
+      "time": "5 days ago",
+      "href": "#"
+    }
+  ],
+  "ContactMedia": [
+    {
+      "id": "387ae25c-2892-48be-86a1-f1f4bbd900f1",
+      "link": "#",
+      "icon": "twitter"
+    },
+    {
+      "id": "3bef0ab9-d365-44e3-a986-d28c762fc198",
+      "link": "#",
+      "icon": "facebook"
+    },
+    {
+      "id": "303b0f74-ae67-488b-89ed-ca221b97cfd7",
+      "link": "#",
+      "icon": "pinterest"
+    },
+    {
+      "id": "163f9b0e-4d36-43ad-9399-5a7895a221a9",
+      "link": "#",
+      "icon": "youtube"
+    },
+    {
+      "id": "90a2a249-9107-4caa-b190-10bd6218ab60",
+      "link": "#",
+      "icon": "linkedIn"
+    }
+  ],
+  "FooterTextData": "© 2013 Peach. All Rights Reserved"
 }

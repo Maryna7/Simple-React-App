@@ -6,11 +6,12 @@ import styles from "./Navigation.module.scss";
 
 type NavDataProp = {
   data: NavItem[];
+  isOpen: boolean;
 };
 
-const Navigation = ({ data }: NavDataProp) => {
+const Navigation = ({ data, isOpen }: NavDataProp) => {
   return (
-    <nav className={styles.nav}>
+    <nav className={isOpen ? `${styles.nav} ${styles.open}` : styles.nav}>
       <ul className={styles.navList}>
         {data.map((item) => (
           <li className={styles.navItem} key={item.id}>

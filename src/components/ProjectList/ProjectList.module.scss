@@ -34,6 +34,7 @@
 .projectList {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .projectItem {
@@ -68,4 +69,16 @@
   color: $white;
   background-color: $btn-background;
   text-transform: capitalize;
+}
+
+@media (max-width: 1023px) {
+  .projectItem {
+    width: 33.33%;
+  }
+}
+
+@media (max-width: 767px) {
+  .projectItem {
+    width: 50%;
+  }
 }

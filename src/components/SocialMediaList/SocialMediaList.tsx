@@ -24,10 +24,10 @@ const SocialMediaList = ({ data }: MediaProps) => {
   };
 
   return (
-    <ul className={styles.teamSocialList}>
+    <ul className={styles.socialList}>
       {data.map((item) => (
-        <li className={styles.teamSocialItem} key={item.id}>
-          <Link className={styles.teamSocialLink} href={item.link}>
+        <li className={styles.socialItem} key={item.id}>
+          <Link className={styles.socialLink} href={item.link}>
             {IconComponent(item.icon)}
           </Link>
         </li>

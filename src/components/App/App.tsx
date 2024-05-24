@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./App.module.scss";
+import data from "../../Data/Data.json";
 import { Header } from "../Header/Header";
 import { Banner } from "../Banner/Banner";
 import { ServicesList } from "../ServicesList/ServicesList";
@@ -10,7 +11,6 @@ import { PortfolioSlider } from "../PortfolioSlider/PortfolioSlider";
 import { BlogList } from "../BlogList/BlogList";
 import { Contacts } from "../Contacts/Contacts";
 import { Footer } from "../Footer/Footer";
-import data from "../../Data/Data.json";
 import { TeamMember } from "../../types/TeamData";
 import { Service } from "../../types/ServicesData";
 import { AboutColumn } from "../../types/AboutData";
@@ -19,9 +19,9 @@ import { Contact } from "../../types/ContactData";
 const App = () => {
   return (
     <div className={styles.app}>
-      <Header data={data.NavData} />
+      <Header navigationData={data.NavData} />
       <main>
-        <Banner data={data.BannerData} />
+        <Banner slides={data.BannerData} />
         <ServicesList data={data.ServiceData as Service[]} />
         <ProjectList
           sortData={data.SortProjectListData}

@@ -6,6 +6,7 @@ type LinkProps = {
   href?: string;
   className?: string;
   children: React.ReactNode;
+  onClick?: any;
 };
 
 const Link = ({ href, className, children }: LinkProps) => {

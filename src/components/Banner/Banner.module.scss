@@ -1,18 +1,21 @@
 @import "../../shared/variables.scss";
 @import "../../shared/mixins.scss";
 
+.bannerSection {
+  position: relative;
+}
+
 .bannerSlide {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   height: 100vh;
-  // background-image: url(../../images/baner.jpg);
   background-size: cover;
   color: $white;
 
   .container {
     @include container-styles;
-    padding: 30px 0;
+    padding: 15px 0 50px;
   }
 
   .textWrap {
@@ -56,4 +59,31 @@
       }
     }
   }
+}
+
+.dotsContainer {
+  position: absolute;
+  bottom: 15px;
+  right: 50%;
+  transform: translateX(50px);
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 1px solid $light-gray;
+  background: none;
+  margin: 0 3px;
+  cursor: pointer;
+  opacity: 0.25;
+  transition: $base-transition;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.activeDot {
+  opacity: 1;
 }
